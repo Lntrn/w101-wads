@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MR_Z10_Lever_Anims>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from MR_Z10I02_Lever.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">01_IDLE_OFF</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">0</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">02_ACTIVE</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">1</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">03_IDLE_ON</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">2</Animation0>
+    </RECORD>
+  </Animations>
+</MR_Z10_Lever_Anims>

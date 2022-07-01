@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Penguin_Townie_Dance_B_Anims>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from Penguin_TownieF_Dance_B.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Dance_B</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">20</Animation0>
+    </RECORD>
+  </Animations>
+</Penguin_Townie_Dance_B_Anims>

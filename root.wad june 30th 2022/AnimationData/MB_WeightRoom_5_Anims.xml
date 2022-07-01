@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MB_WeightRoom_5_Anims>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+    <RECORD>
+      <Name TYPE="STR">SkeletonMovement</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from MB_BigBenGears_05.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">00_Idle_Down</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">0</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">01_Raise2</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">1</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">02_IdleLevel2</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">2</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">03_Raise3</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">3</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">04_IdleLevel3</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">4</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">05_Raise4</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">5</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">06_IdleLevel4</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">6</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">07_Raise5</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">7</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">08_Idle5</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">8</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">09_ChainFadeOut</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">9</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">10_ChainOffIdle</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">10</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">11_ChainFadeIn</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">11</Animation0>
+    </RECORD>
+  </Animations>
+  <SkeletonMovement>
+  </SkeletonMovement>
+</MB_WeightRoom_5_Anims>

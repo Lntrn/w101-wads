@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SC_Colossus_Anim>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from SC_Colossus_Anim.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_GetHit</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">370</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_CombatIdle</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">1</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_NaturalAttack_Frostbite</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">710</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_NaturalAttack_Blizzard</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">720</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_Die</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">610</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Colossus_Walk</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">500</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_Idle</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">20</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_Focus</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">100</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_IdleFidget</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">30</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">SC_Colossus_Cast</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">144</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Attack</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">700</Animation0>
+    </RECORD>
+  </Animations>
+</SC_Colossus_Anim>

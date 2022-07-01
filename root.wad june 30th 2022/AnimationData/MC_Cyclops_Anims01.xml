@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MC_Cyclops_Anims01>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from MC_Cyclops_Anims01.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_GetHit</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">370</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_StepRight</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">930</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Attack02</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">710</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Run_TRSFM</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">900</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Jump</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">940</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Attack03</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">720</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Death</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">610</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Walk</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">500</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Idle</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">20</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_RunBackward</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">910</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Death_TRSFM</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">950</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Focus</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">100</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Idle_Fidget</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">30</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_StepLeft</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">920</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">MC_Cyclops_Cast</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">144</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Attack</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">700</Animation0>
+    </RECORD>
+  </Animations>
+</MC_Cyclops_Anims01>

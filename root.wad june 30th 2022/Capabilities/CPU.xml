@@ -1,0 +1,11 @@
+<!--   <Manufacturer Name="Manufacturer Name"> -->
+<!--      <Exception Name="capability"> -->
+<!--         list all the chip sets that this ability affects, if no chipssets are listed then -->
+<!--         all chipset from the manufacturer are affected.-->
+<!--         <ChipSet></ChipSet> -->
+<!--         <Capable>false</Capable> --> <!--If this is here it will override the ability-->
+<!--         <Value>0.0</Value> --> <!--If this is here it will override the value-->
+<!--      </Exception> -->
+
+<CPU>
+</CPU>

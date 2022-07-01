@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<GameMessages>
+  <_ProtocolInfo>
+    <RECORD>
+      <ServiceID TYPE="UBYT">55</ServiceID>
+      <ProtocolType TYPE="STR">GAME2</ProtocolType>
+      <ProtocolVersion TYPE="INT">1</ProtocolVersion>
+      <ProtocolDescription TYPE="STR">Game Messages2</ProtocolDescription>
+    </RECORD>
+  </_ProtocolInfo>
+  <MSG_NOTIFYITEMFORSETBONUS>
+    <RECORD>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_NOTIFYITEMFORSETBONUS</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Server notify to client about an item that should be treated as equipped/unequipped for purpose of item set bonus</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_NotifyItemForSetBonus</_MsgHandler>
+      <AsEquip TYPE="INT"></AsEquip>
+      <ItemID TYPE="GID"></ItemID>
+    </RECORD>
+  </MSG_NOTIFYITEMFORSETBONUS>
+</GameMessages>

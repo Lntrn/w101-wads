@@ -1,0 +1,1305 @@
+﻿<RaceSounds>
+  <Race Name="ArcaneHelp">
+    <Sound Name="Flail">Sound/PetGames/flail_ArcaneHelpers.mp3</Sound>
+  </Race>
+  <Race Name="Babydactyl">
+    <Sound Name="Flail">Sound/PetGames/flail_babydactyl.mp3</Sound>
+  </Race>
+  <Race Name="BabyDragonfly">
+    <Sound Name="Flail">Sound/PetGames/flail_Dragonfly.mp3</Sound>
+  </Race>
+  <Race Name="BabyPegasus">
+    <Sound Name="Flail">Sound/PetGames/flail_BabyPegasus.mp3</Sound>
+  </Race>
+  <Race Name="Banshee">
+    <Sound Name="Flail">Sound/PetGames/flail_banshee.mp3</Sound>
+  </Race>
+  <Race Name="BansheeBoss">
+    <Sound Name="Flail">Sound/PetGames/flail_banshee.mp3</Sound>
+  </Race>
+  <Race Name="Basilisk">
+    <Sound Name="Flail">Sound/PetGames/flail_basilisk.mp3</Sound>
+  </Race>
+  <Race Name="BasketSnake">
+    <Sound Name="Flail">Sound/PetGames/flail_basketsnake.mp3</Sound>
+  </Race>
+  <Race Name="Bat">
+    <Sound Name="Flail">Sound/PetGames/flail_bloodbat.mp3</Sound>
+  </Race>
+  <Race Name="BatLightning">
+    <Sound Name="Flail">Sound/PetGames/flail_lightningbat.mp3</Sound>
+  </Race>
+  <Race Name="BearCub">
+    <Sound Name="Flail">Sound/PetGames/flail_polarbear.mp3</Sound>
+  </Race>
+  <Race Name="BettaFish">
+    <Sound Name="Flail">Sound/PetGames/flail_bettafish.mp3</Sound>
+  </Race>
+  <Race Name="Blowfish">
+    <Sound Name="Flail">Sound/PetGames/flail_blowfish.mp3</Sound>
+  </Race>
+  <Race Name="Boar">
+    <Sound Name="Flail">Sound/PetGames/flail_boar.mp3</Sound>
+  </Race>
+  <Race Name="BoneDragon">
+    <Sound Name="Flail">Sound/PetGames/flail_bonedragon.mp3</Sound>
+  </Race>
+  <Race Name="Book">
+    <Sound Name="Flail">Sound/PetGames/flail_book.mp3</Sound>
+  </Race>
+  <Race Name="BorealisGolemPet">
+    <Sound Name="Flail">Sound/PetGames/flail_BorealisGolem.mp3</Sound>
+  </Race>
+  <Race Name="BronzeGolem">
+    <Sound Name="Flail">Sound/PetGames/flail_BronzeGolem.mp3</Sound>
+  </Race>
+  <Race Name="BullPet">
+    <Sound Name="Flail">Sound/PetGames/flail_Bull.mp3</Sound>
+  </Race>
+  <Race Name="BullPetB">
+    <Sound Name="Flail">Sound/PetGames/flail_Bull.mp3</Sound>
+  </Race>
+  <Race Name="BullPetC">
+    <Sound Name="Flail">Sound/PetGames/flail_Bull.mp3</Sound>
+  </Race>
+  <Race Name="BullPetD">
+    <Sound Name="Flail">Sound/PetGames/flail_Bull.mp3</Sound>
+  </Race>
+  <Race Name="BumbleBee">
+    <Sound Name="Flail">Sound/PetGames/flail_BumbleBee.mp3</Sound>
+  </Race>
+  <Race Name="BunnyMallow">
+    <Sound Name="Flail">Sound/PetGames/flail_Bunnies.mp3</Sound>
+  </Race>
+  <Race Name="BurlapBoy">
+    <Sound Name="Flail">Sound/PetGames/flail_thatchboy.mp3</Sound>
+  </Race>
+  <Race Name="CactusHopper">
+    <Sound Name="Flail">Sound/PetGames/flail_CactusHopper.mp3</Sound>
+  </Race>
+  <Race Name="CatThug">
+    <Sound Name="Flail">Sound/PetGames/flail_catthug.mp3</Sound>
+  </Race>
+  <Race Name="Chameleon">
+    <Sound Name="Flail">Sound/PetGames/flail_chameleon.mp3</Sound>
+  </Race>
+  <Race Name="Chimera">
+    <Sound Name="Flail">Sound/PetGames/flail_chimera.mp3</Sound>
+  </Race>
+  <Race Name="ChristmasElf">
+    <Sound Name="Flail">Sound/PetGames/flail_fireelf.mp3</Sound>
+  </Race>
+  <Race Name="ChristmasSnowman">
+    <Sound Name="Flail">Sound/PetGames/flail_snowman.mp3</Sound>
+  </Race>
+  <Race Name="ClockworkKnight">
+    <Sound Name="Flail">Sound/PetGames/flail_ClockworkKnight.mp3</Sound>
+  </Race>
+  <Race Name="Colossus_Ice">
+    <Sound Name="Flail">Sound/PetGames/flail_colossus.mp3</Sound>
+  </Race>
+  <Race Name="Colossus_Spirit">
+    <Sound Name="Flail">Sound/PetGames/flail_colossus.mp3</Sound>
+  </Race>
+  <Race Name="Corgi">
+    <Sound Name="Flail">Sound/PetGames/flail_Corgi.mp3</Sound>
+  </Race>
+  <Race Name="CrabKing">
+    <Sound Name="Flail">Sound/PetGames/flail_crabking.mp3</Sound>
+  </Race>
+  <Race Name="CreepyBeetle">
+    <Sound Name="Flail">Sound/PetGames/flail_CreepyBeetle.mp3</Sound>
+  </Race>
+  <Race Name="Cyclops">
+    <Sound Name="Flail">Sound/PetGames/flail_cyclops.mp3</Sound>
+  </Race>
+  <Race Name="DeathUnicorn">
+    <Sound Name="Flail">Sound/PetGames/flail_deathunicorn.mp3</Sound>
+  </Race>
+  <Race Name="DeerKnight">
+    <Sound Name="Flail">Sound/PetGames/flail_deerknight.mp3</Sound>
+  </Race>
+  <Race Name="DinoSkeletal">
+    <Sound Name="Flail">Sound/PetGames/flail_DinoSkeletal.mp3</Sound>
+  </Race>
+  <Race Name="DragonBeta">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="DragonFriendly">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="DragonFrontier">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="DragonGauntlet">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="DragonGhost">
+    <Sound Name="Flail">Sound/PetGames/flail_ghostdragon.mp3</Sound>
+  </Race>
+  <Race Name="DragonKI">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="Dragonling">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="Efreet">
+    <Sound Name="Flail">Sound/PetGames/flail_efreet.mp3</Sound>
+  </Race>
+  <Race Name="EggChick">
+    <Sound Name="Flail">Sound/PetGames/flail_EggChick.mp3</Sound>
+  </Race>
+  <Race Name="EvilSnowman">
+    <Sound Name="Flail">Sound/PetGames/flail_snowman.mp3</Sound>
+  </Race>
+  <Race Name="EvilSnowmanSandman">
+    <Sound Name="Flail">Sound/PetGames/flail_snowman.mp3</Sound>
+  </Race>
+  <Race Name="Eyecaramba_Green">
+    <Sound Name="Flail">Sound/PetGames/flail_eyecaramba.mp3</Sound>
+  </Race>
+  <Race Name="Eyecaramba_Orange">
+    <Sound Name="Flail">Sound/PetGames/flail_eyecaramba.mp3</Sound>
+  </Race>
+  <Race Name="Eyecaramba_Violet">
+    <Sound Name="Flail">Sound/PetGames/flail_eyecaramba.mp3</Sound>
+  </Race>
+  <Race Name="FennecFox">
+    <Sound Name="Flail">Sound/PetGames/flail_FennecFox.mp3</Sound>
+  </Race>
+  <Race Name="Firecat">
+    <Sound Name="Flail">Sound/PetGames/flail_cat.mp3</Sound>
+  </Race>
+  <Race Name="Firecat_Decade">
+    <Sound Name="Flail">Sound/PetGames/flail_cat.mp3</Sound>
+  </Race>
+  <Race Name="FireElf">
+    <Sound Name="Flail">Sound/PetGames/flail_fireelf.mp3</Sound>
+  </Race>
+  <Race Name="Flamingo">
+    <Sound Name="Flail">Sound/PetGames/flail_flamingo.mp3</Sound>
+  </Race>
+  <Race Name="FlyingCat">
+    <Sound Name="Flail">Sound/PetGames/flail_flyingcat.mp3</Sound>
+  </Race>
+  <Race Name="FlyingEyePet">
+    <Sound Name="Flail">Sound/PetGames/flail_Eyeball.mp3</Sound>
+  </Race>
+  <Race Name="FlyingSquirrel">
+    <Sound Name="Flail">Sound/PetGames/flail_FlyingSquirrel.mp3</Sound>
+  </Race>
+  <Race Name="Foo_Dog">
+    <Sound Name="Flail">Sound\PetGames\flail_foodog.mp3</Sound>
+  </Race>
+  <Race Name="ForestLord">
+    <Sound Name="Flail">Sound/PetGames/flail_forestlord.mp3</Sound>
+  </Race>
+  <Race Name="ForestSpirit">
+    <Sound Name="Flail">Sound/PetGames/flail_SpiritoftheForest.mp3</Sound>
+  </Race>
+  <Race Name="FrankenBunny">
+    <Sound Name="Flail">Sound/PetGames/flail_FrankenBunny.mp3</Sound>
+  </Race>
+  <Race Name="FrilledLizard">
+    <Sound Name="Flail">Sound/PetGames/flail_FrilledLizard.mp3</Sound>
+  </Race>
+  <Race Name="Frog">
+    <Sound Name="Flail">Sound/PetGames/flail_frog.mp3</Sound>
+  </Race>
+  <Race Name="FrostBeetle">
+    <Sound Name="Flail">Sound/PetGames/flail_frostbeetle.mp3</Sound>
+  </Race>
+  <Race Name="Gargoyle">
+    <Sound Name="Flail">Sound/PetGames/flail_gargoyle.mp3</Sound>
+  </Race>
+  <Race Name="GargoyleMyth">
+    <Sound Name="Flail">Sound/PetGames/flail_gargoyle.mp3</Sound>
+  </Race>
+  <Race Name="GhostBlue">
+    <Sound Name="Flail">Sound/PetGames/flail_ghost.mp3</Sound>
+  </Race>
+  <Race Name="GhostGreen">
+    <Sound Name="Flail">Sound/PetGames/flail_ghost.mp3</Sound>
+  </Race>
+  <Race Name="GhostLady">
+    <Sound Name="Flail">Sound/PetGames/flail_ghostfemale.mp3</Sound>
+  </Race>
+  <Race Name="GhostRed">
+    <Sound Name="Flail">Sound/PetGames/flail_ghost.mp3</Sound>
+  </Race>
+  <Race Name="GhostYellow">
+    <Sound Name="Flail">Sound/PetGames/flail_ghost.mp3</Sound>
+  </Race>
+  <Race Name="Ghoul">
+    <Sound Name="Flail">Sound/PetGames/flail_ghoul.mp3</Sound>
+  </Race>
+  <Race Name="Ghoul_Gravedigger">
+    <Sound Name="Flail">Sound/PetGames/flail_ghoul.mp3</Sound>
+  </Race>
+  <Race Name="GhoulturePet">
+    <Sound Name="Flail">Sound/PetGames/flail_Ghoulture.mp3</Sound>
+  </Race>
+  <Race Name="Giraffe">
+    <Sound Name="Flail">Sound/PetGames/flail_giraffe.mp3</Sound>
+  </Race>
+  <Race Name="Gnome">
+    <Sound Name="Flail">Sound/PetGames/flail_gnome.mp3</Sound>
+  </Race>
+  <Race Name="GoatMonk">
+    <Sound Name="Flail">Sound/PetGames/flail_goatmonk.mp3</Sound>
+  </Race>
+  <Race Name="GobblerHalloween">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_gobblerball.mp3</Sound>
+  </Race>
+  <Race Name="GobblerRed">
+    <Sound Name="Flail">Sound/PetGames/flail_gobblerball.mp3</Sound>
+  </Race>
+  <Race Name="GoldenRam">
+    <Sound Name="Flail">Sound/PetGames/flail_GoldenRam.mp3</Sound>
+  </Race>
+  <Race Name="GolemBrass">
+    <Sound Name="Flail">Sound/PetGames/flail_golembrass.mp3</Sound>
+  </Race>
+  <Race Name="GolemClockwork">
+    <Sound Name="Flail">Sound/PetGames/flail_golembrass.mp3</Sound>
+  </Race>
+  <Race Name="GolemSteel">
+    <Sound Name="Flail">Sound/PetGames/flail_golemsteel.mp3</Sound>
+  </Race>
+  <Race Name="GolemWood">
+    <Sound Name="Flail">Sound/PetGames/flail_golemwood.mp3</Sound>
+  </Race>
+  <Race Name="Goose">
+    <Sound Name="Flail">Sound/PetGames/flail_goose.mp3</Sound>
+  </Race>
+  <Race Name="HalloweenCat">
+    <Sound Name="Flail">Sound/PetGames/flail_cat.mp3</Sound>
+  </Race>
+  <Race Name="Harpy">
+    <Sound Name="Flail">Sound/PetGames/flail_Harpy.mp3</Sound>
+  </Race>
+  <Race Name="Heckhound">
+    <Sound Name="Flail">Sound/PetGames/flail_heckhound.mp3</Sound>
+  </Race>
+  <Race Name="HeckhoundGhost">
+    <Sound Name="Flail">Sound/PetGames/flail_heckhound.mp3</Sound>
+  </Race>
+  <Race Name="Helephant">
+    <Sound Name="Flail">Sound/PetGames/flail_hellephant.mp3</Sound>
+  </Race>
+  <Race Name="Helephant_Heart">
+    <Sound Name="Flail">Sound/PetGames/flail_hellephant.mp3</Sound>
+  </Race>
+  <Race Name="Hobgoblin">
+    <Sound Name="Flail">Sound/PetGames/flail_Hobgoblin.mp3</Sound>
+  </Race>
+  <Race Name="HollowKnight">
+    <Sound Name="Flail">Sound/PetGames/flail_hollowknight.mp3</Sound>
+  </Race>
+  <Race Name="HollowKnightLife">
+    <Sound Name="Flail">Sound/PetGames/flail_hollowknight.mp3</Sound>
+  </Race>
+  <Race Name="Humongofrog">
+    <Sound Name="Flail">Sound/PetGames/flail_humongofrog.mp3</Sound>
+  </Race>
+  <Race Name="Hydra">
+    <Sound Name="Flail">Sound/PetGames/flail_hydra.mp3</Sound>
+  </Race>
+  <Race Name="Ibis">
+    <Sound Name="Flail">Sound/PetGames/flail_Ibis.mp3</Sound>
+  </Race>
+  <Race Name="Imp">
+    <Sound Name="Flail">Sound/PetGames/flail_imp.mp3</Sound>
+  </Race>
+  <Race Name="JackOLantern">
+    <Sound Name="Flail">Sound/PetGames/flail_JackOLantern.mp3</Sound>
+  </Race>
+  <Race Name="Jellyfish">
+    <Sound Name="Flail">Sound/PetGames/flail_jellyfish.mp3</Sound>
+  </Race>
+  <Race Name="Judgement">
+    <Sound Name="Flail">Sound/PetGames/flail_judgement.mp3</Sound>
+  </Race>
+  <Race Name="Kookaburra">
+    <Sound Name="Flail">Sound/PetGames/flail_Kookaburra.mp3</Sound>
+  </Race>
+  <Race Name="Kraken">
+    <Sound Name="Flail">Sound/PetGames/flail_kraken.mp3</Sound>
+  </Race>
+  <Race Name="Krokomummy">
+    <Sound Name="Flail">Sound/PetGames/flail_krokmummy.mp3</Sound>
+  </Race>
+  <Race Name="Kroktut">
+    <Sound Name="Flail">Sound/PetGames/flail_kroktut.mp3</Sound>
+  </Race>
+  <Race Name="Ladybug">
+    <Sound Name="Flail">Sound/PetGames/flail_ladybug.mp3</Sound>
+  </Race>
+  <Race Name="Leopard">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_leopard.mp3</Sound>
+  </Race>
+  <Race Name="Leprechaun">
+    <Sound Name="Flail">Sound/PetGames/flail_leprechaun.mp3</Sound>
+  </Race>
+  <Race Name="LeprechaunPatriotic">
+    <Sound Name="Flail">Sound/PetGames/flail_leprechaunpatriotic.mp3</Sound>
+  </Race>
+  <Race Name="LeprechaunPattyDay">
+    <Sound Name="Flail">Sound/PetGames/flail_leprechaun.mp3</Sound>
+  </Race>
+  <Race Name="LightningBat">
+    <Sound Name="Flail">Sound/PetGames/flail_lightningbat.mp3</Sound>
+  </Race>
+  <Race Name="Mammoth">
+    <Sound Name="Flail">Sound/PetGames/flail_mammoth.mp3</Sound>
+  </Race>
+  <Race Name="MimicTemplate">
+    <Sound Name="Flail">Sound/PetGames/flail_MimicChest.mp3</Sound>
+  </Race>
+  <Race Name="Minotaur">
+    <Sound Name="Flail">Sound/PetGames/flail_minotaur.mp3</Sound>
+  </Race>
+  <Race Name="Monkey">
+    <Sound Name="Flail">Sound/PetGames/flail_monkey.mp3</Sound>
+  </Race>
+  <Race Name="Moose">
+    <Sound Name="Flail">Sound/PetGames/flail_Moose.mp3</Sound>
+  </Race>
+  <Race Name="MummyCat">
+    <Sound Name="Flail">Sound/PetGames/flail_mummycat.mp3</Sound>
+  </Race>
+  <Race Name="NightHawk">
+    <Sound Name="Flail">Sound/PetGames/flail_falcon.mp3</Sound>
+  </Race>
+  <Race Name="Nikkos">
+    <Sound Name="Flail">Sound/PetGames/flail_salamander.mp3</Sound>
+  </Race>
+  <Race Name="NinjaPig">
+    <Sound Name="Flail">Sound/PetGames/flail_ninjapig.mp3</Sound>
+  </Race>
+  <Race Name="Nutcracker2012">
+    <Sound Name="Flail">Sound/PetGames/flail_nutcracker.mp3</Sound>
+  </Race>
+  <Race Name="OpossumPet">
+    <Sound Name="Flail">Sound/PetGames/flail_Oposumm.mp3</Sound>
+  </Race>
+  <Race Name="OrigamiBird">
+    <Sound Name="Flail">Sound/PetGames/flail_OrigamiBird.mp3</Sound>
+  </Race>
+  <Race Name="OrigamiBirdBDay">
+    <Sound Name="Flail">Sound/PetGames/flail_OrigamiBird.mp3</Sound>
+  </Race>
+  <Race Name="Orthus">
+    <Sound Name="Flail">Sound/PetGames/flail_orthrus.mp3</Sound>
+  </Race>
+  <Race Name="Otter">
+    <Sound Name="Flail">Sound/PetGames/flail_Otter.mp3</Sound>
+  </Race>
+  <Race Name="Pantera">
+    <Sound Name="Flail">Sound/PetGames/flail_whiptailpanthera.mp3</Sound>
+  </Race>
+  <Race Name="ParkaFox">
+    <Sound Name="Flail">Sound/PetGames/flail_ParkaFox.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Armadillo">
+    <Sound Name="Flail">Sound/PetGames/flail_Armadillo.mp3</Sound>
+  </Race>
+  <Race Name="Pet_ArmadilloBW">
+    <Sound Name="Flail">Sound/PetGames/flail_RockNRollerArmadillo.mp3</Sound>
+  </Race>
+  <Race Name="Pet_BabySeal">
+    <Sound Name="Flail">Sound/PetGames/flail_BabySeal.mp3</Sound>
+  </Race>
+  <Race Name="Pet_BabyYeti">
+    <Sound Name="Flail">Sound/PetGames/flail_BabyYeti.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Bunnies">
+    <Sound Name="Flail">Sound/PetGames/flail_Bunnies.mp3</Sound>
+  </Race>
+  <Race Name="Pet_ButterflyLamb">
+    <Sound Name="Flail">Sound/PetGames/flail_ButterflyLamb.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Cherub">
+    <Sound Name="Flail">Sound/PetGames/flail_BattleAngel.mp3</Sound>
+  </Race>
+  <Race Name="Pet_ClockworkOwl">
+    <Sound Name="Flail">Sound/PetGames/flail_ClockworkOwl.mp3</Sound>
+  </Race>
+  <Race Name="Pet_CorgiBirthday">
+    <Sound Name="Flail">Sound/PetGames/flail_Corgi.mp3</Sound>
+  </Race>
+  <Race Name="Pet_CrystalButterfly">
+    <Sound Name="Flail">Sound/PetGames/flail_CrystalButterfly.mp3</Sound>
+  </Race>
+  <Race Name="Pet_FlyingBlackCat">
+    <Sound Name="Flail">Sound/PetGames/flail_flyingcat.mp3</Sound>
+  </Race>
+  <Race Name="Pet_FrankieForearms">
+    <Sound Name="Flail">Sound/PetGames/flail_FrankieForearms.mp3</Sound>
+  </Race>
+  <Race Name="Pet_FrogAssistant">
+    <Sound Name="Flail">Sound/PetGames/flail_FrogAssistant.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Macaw">
+    <Sound Name="Flail">Sound/PetGames/flail_Macaw.mp3</Sound>
+  </Race>
+  <Race Name="Pet_MonkeyMirage">
+    <Sound Name="Flail">Sound/PetGames/flail_MirageMonkey.mp3</Sound>
+  </Race>
+  <Race Name="Pet_MouseBrother">
+    <Sound Name="Flail">Sound/PetGames/flail_MouseBrother.mp3</Sound>
+  </Race>
+  <Race Name="Pet_MouseFather">
+    <Sound Name="Flail">Sound/PetGames/flail_MouseFather.mp3</Sound>
+  </Race>
+  <Race Name="Pet_MouseMother">
+    <Sound Name="Flail">Sound/PetGames/flail_MouseMother.mp3</Sound>
+  </Race>
+  <Race Name="Pet_MouseSister">
+    <Sound Name="Flail">Sound/PetGames/flail_MouseSister.mp3</Sound>
+  </Race>
+  <Race Name="Pet_NinjaTurtle">
+    <Sound Name="Flail">Sound/PetGames/flail_NinjaTurtle.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Penguin">
+    <Sound Name="Flail">Sound/PetGames/flail_Penguin.mp3</Sound>
+  </Race>
+  <Race Name="Pet_RoadHog">
+    <Sound Name="Flail">Sound/PetGames/flail_RoadHog.mp3</Sound>
+  </Race>
+  <Race Name="Pet_SandWorm">
+    <Sound Name="Flail">Sound/PetGames/flail_SandwormLarvae.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Squirrel">
+    <Sound Name="Flail">Sound/PetGames/flail_squirrel.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Squirrel">
+    <Sound Name="Flail">Sound/PetGames/flail_squirrel.mp3</Sound>
+  </Race>
+  <Race Name="Pet_Toucan">
+    <Sound Name="Flail">Sound/PetGames/flail_toucan.mp3</Sound>
+  </Race>
+  <Race Name="Pet_VampireSquirrel">
+    <Sound Name="Flail">Sound/PetGames/flail_Vampire_Squirrel.mp3</Sound>
+  </Race>
+  <Race Name="Phoenix">
+    <Sound Name="Flail">Sound/PetGames/flail_phoenix.mp3</Sound>
+  </Race>
+  <Race Name="PhoenixDeath">
+    <Sound Name="Flail">Sound/PetGames/flail_phoenix.mp3</Sound>
+  </Race>
+  <Race Name="PhoenixStorm">
+    <Sound Name="Flail">Sound/PetGames/flail_phoenix.mp3</Sound>
+  </Race>
+  <Race Name="Piggle">
+    <Sound Name="Flail">Sound/PetGames/flail_piggle.mp3</Sound>
+  </Race>
+  <Race Name="Piggle_Alien">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_PiggleAlien.mp3</Sound>
+  </Race>
+  <Race Name="Piggle_Grandfather">
+    <Sound Name="Flail">Sound/PetGames/flail_piggle.mp3</Sound>
+  </Race>
+  <Race Name="Piggle_Valentine">
+    <Sound Name="Flail">Sound/PetGames/flail_piggle.mp3</Sound>
+  </Race>
+  <Race Name="Piggle_ValentinePart2">
+    <Sound Name="Flail">Sound/PetGames/flail_piggle.mp3</Sound>
+  </Race>
+  <Race Name="PiranhaHunter">
+    <Sound Name="Flail">Sound/PetGames/flail_piranhahunter.mp3</Sound>
+  </Race>
+  <Race Name="Pixie">
+    <Sound Name="Flail">Sound/PetGames/flail_pixie.mp3</Sound>
+  </Race>
+  <Race Name="PP_Astronomer">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_Astronomer.mp3</Sound>
+  </Race>
+  <Race Name="PP_AvengingFossil">
+    <Sound Name="Flail">Sound/PetGames/flail_AvengingFossil.mp3</Sound>
+  </Race>
+  <Race Name="PP_BabyGreenMan_A">
+    <Sound Name="Flail">Sound/PetGames/flail_babygreenman.mp3</Sound>
+  </Race>
+  <Race Name="PP_BabyGriffin">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_BabyGriffin.mp3</Sound>
+  </Race>
+  <Race Name="PP_BabyOrca">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_BabyOrca.mp3</Sound>
+  </Race>
+  <Race Name="PP_BabyPandas">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_BabyPandas.mp3</Sound>
+  </Race>
+  <Race Name="PP_BaskHound">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_BaskHound.mp3</Sound>
+  </Race>
+  <Race Name="PP_BattleMageDragon_A">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_BattleMageDragon_A.mp3</Sound>
+  </Race>
+  <Race Name="PP_BeastBaby">
+    <Sound Name="Flail">Sound/PetGames/flail_BeastBaby.mp3</Sound>
+  </Race>
+  <Race Name="PP_Blimp">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_blimp.ogg</Sound>
+  </Race>
+  <Race Name="PP_Brudel">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_brudel.mp3</Sound>
+  </Race>
+  <Race Name="PP_BumbleBee_B">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_zombee.mp3</Sound>
+  </Race>
+  <Race Name="PP_Capybara">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_capybara.ogg</Sound>
+  </Race>
+  <Race Name="PP_Celestian">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_celestian.mp3</Sound>
+  </Race>
+  <Race Name="PP_ChocoBunny">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_ChocoBunny.mp3</Sound>
+  </Race>
+  <Race Name="PP_CorgiPup">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_corgiepup.ogg</Sound>
+  </Race>
+  <Race Name="PP_CottonCandy">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_CottonCandy.mp3</Sound>
+  </Race>
+  <Race Name="PP_DarkBalloon_A">
+    <Sound Name="Flail">Sound/PetGames/flail_darkballoon.mp3</Sound>
+  </Race>
+  <Race Name="PP_DeathMimic">
+    <Sound Name="Flail">Sound/PetGames/flail_MimicChest.mp3</Sound>
+  </Race>
+  <Race Name="PP_DecadeDragon">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_DecadeDragon.mp3</Sound>
+  </Race>
+  <Race Name="PP_DecennialDragon">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_DecennialDragon.mp3</Sound>
+  </Race>
+  <Race Name="PP_Dolphin">
+    <Sound Name="Flail">Sound/PetGames/flail_Dolphin.mp3</Sound>
+  </Race>
+  <Race Name="PP_Draconian">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_Draconian.mp3</Sound>
+  </Race>
+  <Race Name="PP_DramaLlama">
+    <Sound Name="Flail">Sound/PetGames/flail_DramaLlama.mp3</Sound>
+  </Race>
+  <Race Name="PP_Dryad">
+    <Sound Name="Flail">Sound/PetGames/flail_Dryad.mp3</Sound>
+  </Race>
+  <Race Name="PP_EggChick_B">
+    <Sound Name="Flail">Sound/PetGames/flail_EggChick.mp3</Sound>
+  </Race>
+  <Race Name="PP_EvilTeddy">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_EvilTeddy.mp3</Sound>
+  </Race>
+  <Race Name="PP_EyeBot">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_EyeBot.mp3</Sound>
+  </Race>
+  <Race Name="PP_FeatheredTabby">
+    <Sound Name="Flail">Sound/PetGames/flail_flyingcat.mp3</Sound>
+  </Race>
+  <Race Name="PP_FenrisWolf">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_FenrisWolf.mp3</Sound>
+  </Race>
+  <Race Name="PP_FenrisWolf_Bantam">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_FenrisWolf_Bantam.mp3</Sound>
+  </Race>
+  <Race Name="PP_FenrisWolf_Red">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_FenrisWolf.mp3</Sound>
+  </Race>
+  <Race Name="PP_FenrisWolf_Teal">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_FenrisWolf.mp3</Sound>
+  </Race>
+  <Race Name="PP_FenrisWolf_White">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_FenrisWolf.mp3</Sound>
+  </Race>
+  <Race Name="PP_FireKitten">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_FireKitten.mp3</Sound>
+  </Race>
+  <Race Name="PP_FossaKitten_A">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Fossa.mp3</Sound>
+  </Race>
+  <Race Name="PP_FrankBunnyBride_A">
+    <Sound Name="Flail">Sound/PetGames/flail_FrankBunnyBride_A.mp3</Sound>
+  </Race>
+  <Race Name="PP_FrilledDino">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_frilleddino.mp3</Sound>
+  </Race>
+  <Race Name="PP_Frog_B">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_frog_B.ogg</Sound>
+  </Race>
+  <Race Name="PP_FrogPrince">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_FrogPrince.mp3</Sound>
+  </Race>
+  <Race Name="PP_GingerbreadMan">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_GingerbreadMan.mp3</Sound>
+  </Race>
+  <Race Name="PP_Globulin">
+    <Sound Name="Flail">Sound/PetGames/flail_Globulin.mp3</Sound>
+  </Race>
+  <Race Name="PP_GlowFairy_A">
+    <Sound Name="Flail">Sound/PetGames/flail_GlowFairy.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Balance">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Death">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Fire">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Ice">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Life">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Myth">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_GummyBear_Storm">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_GummyBear.mp3</Sound>
+  </Race>
+  <Race Name="PP_HallMinotaur_A">
+    <Sound Name="Flail">Sound/PetGames/flail_minotaur.mp3</Sound>
+  </Race>
+  <Race Name="PP_Hamster">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Hamster.mp3</Sound>
+  </Race>
+  <Race Name="PP_Hummingbird">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Hummingbird.mp3</Sound>
+  </Race>
+  <Race Name="PP_JeweledScarab">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_jeweledscarab.mp3</Sound>
+  </Race>
+  <Race Name="PP_Kit10">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_Kit10.mp3</Sound>
+  </Race>
+  <Race Name="PP_Krokomummy">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_krokomummy.ogg</Sound>
+  </Race>
+  <Race Name="PP_LeapingLeprechaun">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_LeapingLeprechaun.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lemur">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_LemurPet.ogg</Sound>
+  </Race>
+  <Race Name="PP_Leviathan">
+    <Sound Name="Flail">Sound/PetGames/flail_Leviathan.mp3</Sound>
+  </Race>
+  <Race Name="PP_LionCubs">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_LionCubs.mp3</Sound>
+  </Race>
+  <Race Name="PP_LordOfWinter">
+    <Sound Name="Flail">Sound/PetGames/flail_LordOfWinter.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lumi_Daisy">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Lumi.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lumi_Fern">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Lumi.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lumi_Sunny">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Lumi.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lumi_Tulip">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Lumi.mp3</Sound>
+  </Race>
+  <Race Name="PP_Lumi_Violet">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Lumi.mp3</Sound>
+  </Race>
+  <Race Name="PP_Marionette">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Marionette.mp3</Sound>
+  </Race>
+  <Race Name="PP_Marionette_B">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_MarionetteB.mp3</Sound>
+  </Race>
+  <Race Name="PP_Marshmallow">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_marshmallow.mp3</Sound>
+  </Race>
+  <Race Name="PP_Medusa">
+    <Sound Name="Flail">Sound/PetGames/flail_Medusa.mp3</Sound>
+  </Race>
+  <Race Name="PP_MimicCake">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_mimicCake.ogg</Sound>
+  </Race>
+  <Race Name="PP_Mushroom">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Mushroom.mp3</Sound>
+  </Race>
+  <Race Name="PP_NatureSpirit">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_NatureSpirit.mp3</Sound>
+  </Race>
+  <Race Name="PP_NimbariDog">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_NimbariDog.mp3</Sound>
+  </Race>
+  <Race Name="PP_OwlProtege">
+    <Sound Name="Flail">Sound/PetGames/flail_OwlProtege.mp3</Sound>
+  </Race>
+  <Race Name="PP_PeaceDove_A">
+    <Sound Name="Flail">Sound/PetGames/flail_PeaceDove.mp3</Sound>
+  </Race>
+  <Race Name="PP_Peacock">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_peacock.ogg</Sound>
+  </Race>
+  <Race Name="PP_Pet_Coconut">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_petcoconut.ogg</Sound>
+  </Race>
+  <Race Name="PP_PetGift">
+    <Sound Name="Flail">Sound/PetGames/Flail_PetGift.ogg</Sound>
+  </Race>
+  <Race Name="PP_Piggle_Caveman">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_PiggleCaveman.mp3</Sound>
+  </Race>
+  <Race Name="PP_PropellerSquirrel">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_PropellerSquirrel.mp3</Sound>
+  </Race>
+  <Race Name="PP_PufferFish_A">
+    <Sound Name="Flail">Sound/PetGames/flail_PufferFish_A.mp3</Sound>
+  </Race>
+  <Race Name="PP_Raccoon">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Racoon.mp3</Sound>
+  </Race>
+  <Race Name="PP_Ratatoskr">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Ratatoskr.mp3</Sound>
+  </Race>
+  <Race Name="PP_RatThief">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_RatThief_Death.mp3</Sound>
+  </Race>
+  <Race Name="PP_Retriever">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_Retriever.mp3</Sound>
+  </Race>
+  <Race Name="PP_RoadRunner">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_roadrunner.ogg</Sound>
+  </Race>
+  <Race Name="PP_Robot">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_RobotPet.ogg</Sound>
+  </Race>
+  <Race Name="PP_Sabertooth">
+    <Sound Name="Flail">Sound/PetGames/flail_Sabertooth.mp3</Sound>
+  </Race>
+  <Race Name="PP_SaniBot">
+    <Sound Name="Flail">Sound/PetGames/flail_Sanibot.mp3</Sound>
+  </Race>
+  <Race Name="PP_SchoolPiggle">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_SchoolPiggle.mp3</Sound>
+  </Race>
+  <Race Name="PP_SchoolTurtle_A">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Scotty">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_scotty.ogg</Sound>
+  </Race>
+  <Race Name="PP_SeaHorse">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_SeaHorse.mp3</Sound>
+  </Race>
+  <Race Name="PP_ShamRock">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_ShamRock.mp3</Sound>
+  </Race>
+  <Race Name="PP_Sharkfish">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_sharkfish.ogg</Sound>
+  </Race>
+  <Race Name="PP_Snowflake">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Snowflake.mp3</Sound>
+  </Race>
+  <Race Name="PP_SootGremlin">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_SootGremlin.ogg</Sound>
+  </Race>
+  <Race Name="PP_SpiderMinion">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_SpiderMinion.mp3</Sound>
+  </Race>
+  <Race Name="PP_SpriteDark">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_spritedark.mp3</Sound>
+  </Race>
+  <Race Name="PP_SpriteDark_Balance">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_Sprite_Balance.mp3</Sound>
+  </Race>
+  <Race Name="PP_SpriteDark_Ice">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_darksprite_ice.ogg</Sound>
+  </Race>
+  <Race Name="PP_SpriteLife">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_spritedark.mp3</Sound>
+  </Race>
+  <Race Name="PP_Strix">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_strix.ogg</Sound>
+  </Race>
+  <Race Name="PP_StuffedUnicorn">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_StuffedUnicorn.mp3</Sound>
+  </Race>
+  <Race Name="PP_Sun">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Sun.mp3</Sound>
+  </Race>
+  <Race Name="PP_Sun_Angry">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_sunangry.mp3</Sound>
+  </Race>
+  <Race Name="PP_SunSerpent">
+    <Sound Name="Flail">Sound/PetGames/flail_FireSunSerpent.mp3</Sound>
+  </Race>
+  <Race Name="PP_Tanuki">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_Tanuki.mp3</Sound>
+  </Race>
+  <Race Name="PP_ThreeHeadGoat">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_ThreeHeadGoat.mp3</Sound>
+  </Race>
+  <Race Name="PP_ThreeHeadGoat_B">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_ThreeHeadGoat.mp3</Sound>
+  </Race>
+  <Race Name="PP_ThreeHeadGoat_C">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_ThreeHeadGoat.mp3</Sound>
+  </Race>
+  <Race Name="PP_TorchBear" />
+  <Race Name="PP_Trash">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_Trash.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_01_Balance">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_01_Death">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_Fire">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_Ice">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_Life">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_Myth">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_Turtle_Storm">
+    <Sound Name="Flail">Sound/PetGames/flail_schoolturtle.mp3</Sound>
+  </Race>
+  <Race Name="PP_VampireSquid">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_VampireSquid.mp3</Sound>
+  </Race>
+  <Race Name="PP_WolfWarrior_Balance">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_Wolf_Balance.ogg</Sound>
+  </Race>
+  <Race Name="PP_WolfWarrior_Ice">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_WolfWarrior_Ice.mp3</Sound>
+  </Race>
+  <Race Name="PP_WolfWarrior_Myth">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_WolfWarrior_Myth.mp3</Sound>
+  </Race>
+  <Race Name="PP_YearOx">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_YearOx.mp3</Sound>
+  </Race>
+  <Race Name="PP_YearOx">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_PP_YearOx.mp3</Sound>
+  </Race>
+  <Race Name="PP_YearTiger">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/Flail_ChineseTiger.ogg</Sound>
+  </Race>
+  <Race Name="PP_ZombieParrot">
+    <Sound Name="Flail">Sound/PetGames/Flail_PP_ZombieParrot.mp3</Sound>
+  </Race>
+  <Race Name="Quetzal">
+    <Sound Name="Flail">Sound/PetGames/flail_quetzal.mp3</Sound>
+  </Race>
+  <Race Name="RamWarrior">
+    <Sound Name="Flail">Sound/PetGames/flail_ramknight.mp3</Sound>
+  </Race>
+  <Race Name="RatMagician">
+    <Sound Name="Flail">Sound/PetGames/flail_ratmagician.mp3</Sound>
+  </Race>
+  <Race Name="Raven">
+    <Sound Name="Flail">Sound/PetGames/flail_raven.mp3</Sound>
+  </Race>
+  <Race Name="Redcap">
+    <Sound Name="Flail">Sound/PetGames/flail_redcapgoblin.mp3</Sound>
+  </Race>
+  <Race Name="RedPanda">
+    <Sound Name="Flail">Sound/PetGames/flail_RedPanda.mp3</Sound>
+  </Race>
+  <Race Name="Runtosaurus">
+    <Sound Name="Flail">Sound/PetGames/flail_Runtasaurus.mp3</Sound>
+  </Race>
+  <Race Name="SaintBernard">
+    <Sound Name="Flail">Sound/PetGames/flail_StBernard.mp3</Sound>
+  </Race>
+  <Race Name="SalamanderFire">
+    <Sound Name="Flail">Sound/PetGames/flail_salamander.mp3</Sound>
+  </Race>
+  <Race Name="SalamanderIce">
+    <Sound Name="Flail">Sound/PetGames/flail_salamander.mp3</Sound>
+  </Race>
+  <Race Name="SalamanderStorm">
+    <Sound Name="Flail">Sound/PetGames/flail_salamander.mp3</Sound>
+  </Race>
+  <Race Name="Samoorai">
+    <Sound Name="Flail">Sound/PetGames/flail_samoorai.mp3</Sound>
+  </Race>
+  <Race Name="Satyr">
+    <Sound Name="Flail">Sound/PetGames/flail_satyr.mp3</Sound>
+  </Race>
+  <Race Name="Scarab">
+    <Sound Name="Flail">Sound/PetGames/flail_scarab.mp3</Sound>
+  </Race>
+  <Race Name="Scarecrow">
+    <Sound Name="Flail">Sound/PetGames/flail_scarecrow.mp3</Sound>
+  </Race>
+  <Race Name="Scorpion">
+    <Sound Name="Flail">Sound/PetGames/flail_scorpion.mp3</Sound>
+  </Race>
+  <Race Name="SeaDragon">
+    <Sound Name="Flail">Sound/PetGames/flail_seadragon.mp3</Sound>
+  </Race>
+  <Race Name="Seraph">
+    <Sound Name="Flail">Sound/PetGames/flail_seraph.mp3</Sound>
+  </Race>
+  <Race Name="SeraphYuletide">
+    <Sound Name="Flail">Sound/PetGames/flail_yuletidespirit.mp3</Sound>
+  </Race>
+  <Race Name="Sheep">
+    <Sound Name="Flail">Sound/PetGames/flail_sheep.mp3</Sound>
+  </Race>
+  <Race Name="ShenlongDragon">
+    <Sound Name="Flail">Sound/PetGames/flail_shenlongdragon.mp3</Sound>
+  </Race>
+  <Race Name="Siren">
+    <Sound Name="Flail">Sound/PetGames/flail_Siren.mp3</Sound>
+  </Race>
+  <Race Name="SkeletonArmored">
+    <Sound Name="Flail">Sound/PetGames/flail_armoredskeleton.mp3</Sound>
+  </Race>
+  <Race Name="SkeletonWarrior">
+    <Sound Name="Flail">Sound/PetGames/flail_armoredskeleton.mp3</Sound>
+  </Race>
+  <Race Name="Skink">
+    <Sound Name="Flail">|ThePhantomZoneWorld|WorldData|Sound/PetGames/flail_skink.mp3</Sound>
+  </Race>
+  <Race Name="Smith">
+    <Sound Name="Flail">Sound/PetGames/flail_smith.mp3</Sound>
+  </Race>
+  <Race Name="SnowSerpent">
+    <Sound Name="Flail">Sound/PetGames/flail_snowserpent.mp3</Sound>
+  </Race>
+  <Race Name="SnowyOwl">
+    <Sound Name="Flail">Sound/PetGames/flail_whiteowl.mp3</Sound>
+  </Race>
+  <Race Name="Spider">
+    <Sound Name="Flail">Sound/PetGames/flail_spider.mp3</Sound>
+  </Race>
+  <Race Name="SpiderBlack">
+    <Sound Name="Flail">Sound/PetGames/flail_spider.mp3</Sound>
+  </Race>
+  <Race Name="SpiderBrown">
+    <Sound Name="Flail">Sound/PetGames/flail_spider.mp3</Sound>
+  </Race>
+  <Race Name="SpiderCrystal">
+    <Sound Name="Flail">Sound/PetGames/flail_spider.mp3</Sound>
+  </Race>
+  <Race Name="SpiderGolem">
+    <Sound Name="Flail">Sound/PetGames/flail_spiderclockwork.mp3</Sound>
+  </Race>
+  <Race Name="SpinyFish">
+    <Sound Name="Flail">Sound/PetGames/flail_spinyfish.mp3</Sound>
+  </Race>
+  <Race Name="Sprite">
+    <Sound Name="Flail">Sound/PetGames/flail_darkspirit.mp3</Sound>
+  </Race>
+  <Race Name="SpriteDark">
+    <Sound Name="Flail">Sound/PetGames/flail_darkspirit.mp3</Sound>
+  </Race>
+  <Race Name="Starfish">
+    <Sound Name="Flail">Sound/PetGames/flail_starfish.mp3</Sound>
+  </Race>
+  <Race Name="Stegosaurus">
+    <Sound Name="Flail">Sound/PetGames/flail_stegasaur.mp3</Sound>
+  </Race>
+  <Race Name="StoneTiger">
+    <Sound Name="Flail">Sound/PetGames/flail_stonetiger.mp3</Sound>
+  </Race>
+  <Race Name="StormCloudPet">
+    <Sound Name="Flail">Sound/PetGames/flail_Cloud.mp3</Sound>
+  </Race>
+  <Race Name="StormCloudPetB">
+    <Sound Name="Flail">Sound/PetGames/flail_Cloud.mp3</Sound>
+  </Race>
+  <Race Name="StormCloudPetC">
+    <Sound Name="Flail">Sound/PetGames/flail_Cloud.mp3</Sound>
+  </Race>
+  <Race Name="Stormzilla">
+    <Sound Name="Flail">Sound/PetGames/flail_stormzilla.mp3</Sound>
+  </Race>
+  <Race Name="StrangeBeast">
+    <Sound Name="Flail">Sound/PetGames/flail_strangebeast.mp3</Sound>
+  </Race>
+  <Race Name="SunBird">
+    <Sound Name="Flail">Sound/PetGames/flail_sunbird.mp3</Sound>
+  </Race>
+  <Race Name="SwordShield">
+    <Sound Name="Flail">Sound/PetGames/flail_SwordShield.mp3</Sound>
+  </Race>
+  <Race Name="TarantulaHawk">
+    <Sound Name="Flail">Sound/PetGames/flail_TarantulaHawk.mp3</Sound>
+  </Race>
+  <Race Name="Therizinosaurus">
+    <Sound Name="Flail">Sound/PetGames/flail_Therizinosaurus.mp3</Sound>
+  </Race>
+  <Race Name="TikiMan">
+    <Sound Name="Flail">Sound/PetGames/flail_tikiman.mp3</Sound>
+  </Race>
+  <Race Name="Toaddle">
+    <Sound Name="Flail">Sound/PetGames/flail_toaddle.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ArmoredSkeleton">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_SkeletonArmored_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_BallerinaBear">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_BearBallerina_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Blacktusk-01">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_ZF_ElephantSoldier_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Cat_Bandit">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/NPC_MB_CatBurglar_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_CatThug">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/NPC_MB_CatThug_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ClockworkGolem">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_GolemCombo_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Cyclops">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_Cyclops_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_CyrusDrake">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_CyrusDrake_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_DarkFairy">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_DarkSprite_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Draconian">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_Draconian_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_DraconianSorcerer">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_Draconian_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_DromelDancer" Gender="Male">
+    <Sound Name="GetHit">|_Shared|WorldData|Sound/GUI/combat_playermale_gethit_01.wav</Sound>
+  </Race>
+  <Race Name="Transformation_DromelDancer" Gender="Female">
+    <Sound Name="GetHit">Sound/GUI/combat_playerfemale_gethit_01.wav</Sound>
+  </Race>
+  <Race Name="Transformation_EagleWarrior">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOBS_GH/MOB_RavenWarrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_EarthColossus">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_ColossusIce_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_EvilSnowman">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_EvilSnowman_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_FatGobbler">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_GobblerFat_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_FireElemental">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_ElementalFire_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_FireElf">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_FireElf_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_FireSalamander">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_KrokSalamander_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_GammaTemplate">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AV_Gamma_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Gobbler_Skinny">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_GobblerSkinny_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_GolemSteel">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_GolemSteel_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Gorilla-02">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_ZF_GorillaSoldier_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Ice_Colossus">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_ColossusIce_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Jaguar">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AZ_JaguarShaman_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Krokomummy">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_KrokMummy_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_MagmaMan">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_EvilSnowmanFire_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Mander">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_KrokSalamander_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Minotaur">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AQ_MinotaurWarrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_MorganthB">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AV_YoungMorganthe_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_MorganthC">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AV_YoungMorganthe_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_MorganthD">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AV_YoungMorganthe_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Ninja_Pig_04">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_PigNinja_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_NinjaPig">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_PigNinja_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_PlayerScionA">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/PC_PolyMorphScion_GetHit_01.mp3</Sound>
+    <Sound Name="Cast">|Mob|WorldData|Sound/PC_PolyMorphScion_Cast.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_PlayerScionA02">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/PC_PolyMorphScion_GetHit_01.mp3</Sound>
+    <Sound Name="Cast">|Mob|WorldData|Sound/PC_PolyMorphScion_Cast.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Pteranadon">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AZ_Pteradon_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_RatThug">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/NPC_MB_RatThug_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_RavenMystic">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOBS_GH/MOB_RavenMystic_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_RavenWarrior">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOBS_GH/MOB_RavenWarrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowCrit" Gender="Male">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Male_A_GetHit.ogg</Sound>
+    <Sound Name="Death">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Male_A_Death.ogg</Sound>
+    <Sound Name="Cast">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Male_A_Cast.ogg</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowCrit" Gender="Female">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Female_A_GetHit.ogg</Sound>
+    <Sound Name="Death">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Female_A_Death.ogg</Sound>
+    <Sound Name="Cast">|TreasureCards|WorldData|Sound/Combat/POLYMORPHS/PMO_Trickster_Female_A_Cast.ogg</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowCrit">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_Trickster_GetHit.ogg</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/MOB_Trickster_Death.ogg</Sound>
+    <Sound Name="Cast">|Mob|WorldData|Sound/MOB_Trickster_Cast.ogg</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowDPS">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_MOB_DPS_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_MOB_DPS_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowDPS" Gender="Male">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_DPS_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_DPS_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowDPS" Gender="Female">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_DPSF_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_DPSF_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowHeal">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_MOB_Healer_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_MOB_Healer_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowHeal" Gender="Male">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_Healer_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_Healer_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowHeal" Gender="Female">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_HealerF_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_HealerF_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowTank">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_MOB_Tank_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_MOB_Tank_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowTank" Gender="Male">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_Tank_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_Tank_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowTank" Gender="Female">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/Shadow/Shadow_Self_TankF_GetHit.mp3</Sound>
+    <Sound Name="Death">|Mob|WorldData|Sound/Shadow/Shadow_Self_TankF_Death.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_ShadowWeaver">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_ShadowWeaver_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_StormElemental">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_ElementalFire_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Thunderhorn">
+    <Sound Name="GetHit">|Mob|WorldData|Sound/MOB_AZ_Tritops_Warrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_Treant">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_Treant_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_WarPig">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_PigWarrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_WolfScout">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOBS_GH/MOB_WolfScout_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformation_WolfWarrior">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOBS_GH/MOB_WolfWarrior_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Transformationn_SkeletonPirate">
+    <Sound Name="GetHit">|TreasureCards|WorldData|Sound/Combat/MOB_SkeletalPirate_GetHit.mp3</Sound>
+  </Race>
+  <Race Name="Treant">
+    <Sound Name="Flail">Sound/PetGames/flail_treant.mp3</Sound>
+  </Race>
+  <Race Name="Triton">
+    <Sound Name="Flail">Sound/PetGames/flail_triton.mp3</Sound>
+  </Race>
+  <Race Name="TrojanHorse">
+    <Sound Name="Flail">Sound/PetGames/flail_trojanhorse.mp3</Sound>
+  </Race>
+  <Race Name="Troll">
+    <Sound Name="Flail">Sound/PetGames/flail_troll.mp3</Sound>
+  </Race>
+  <Race Name="Turtle">
+    <Sound Name="Flail">Sound/PetGames/flail_turtle.mp3</Sound>
+  </Race>
+  <Race Name="UndeadCaster">
+    <Sound Name="Flail">Sound/PetGames/flail_undeadcaster.mp3</Sound>
+  </Race>
+  <Race Name="Unicorn">
+    <Sound Name="Flail">Sound/PetGames/flail_unicorn.mp3</Sound>
+  </Race>
+  <Race Name="UnicornNightmare">
+    <Sound Name="Flail">Sound/PetGames/flail_nightmare.mp3</Sound>
+  </Race>
+  <Race Name="Unknown" />
+  <Race Name="Vampire">
+    <Sound Name="Flail">Sound/PetGames/flail_VampirePet.mp3</Sound>
+  </Race>
+  <Race Name="Velociraptor">
+    <Sound Name="Flail">Sound/PetGames/flail_Velociraptor.mp3</Sound>
+  </Race>
+  <Race Name="WeaselMinstrel">
+    <Sound Name="Flail">Sound/PetGames/flail_weaselminstrel.mp3</Sound>
+  </Race>
+  <Race Name="WildfireTreant">
+    <Sound Name="Flail">Sound/PetGames/flail_wildfiretreant.mp3</Sound>
+  </Race>
+  <Race Name="Wolfhound">
+    <Sound Name="Flail">Sound/PetGames/flail_wolfhound.mp3</Sound>
+  </Race>
+  <Race Name="Wolverine">
+    <Sound Name="Flail">Sound/PetGames/flail_wolverine.mp3</Sound>
+  </Race>
+  <Race Name="Wraith">
+    <Sound Name="Flail">Sound/PetGames/flail_wraith.mp3</Sound>
+  </Race>
+  <Race Name="Wyrmkin">
+    <Sound Name="Flail">Sound/PetGames/flail_dragon.mp3</Sound>
+  </Race>
+  <Race Name="WysteriaPiggle">
+    <Sound Name="Flail">Sound/PetGames/flail_piggle.mp3</Sound>
+  </Race>
+  <Race Name="Wyvern">
+    <Sound Name="Flail">Sound/PetGames/flail_wyvern.mp3</Sound>
+  </Race>
+</RaceSounds>

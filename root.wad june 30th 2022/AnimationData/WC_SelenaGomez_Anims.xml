@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WC_SelenaGomez_Anims>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from WC_SelenaGomez_Anims_01.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">WC_SelenaG_Dance</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">600</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">WC_SelenaG_Idle</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">20</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">WC_SelenaG_Fidget</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">30</Animation0>
+    </RECORD>
+  </Animations>
+</WC_SelenaGomez_Anims>

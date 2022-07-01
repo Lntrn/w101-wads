@@ -1,0 +1,21 @@
+﻿<Objects>
+  <Class Name="class CharacterRaceTable">
+    <m_characterTables>
+      <Class Name="class CharacterElementTable">
+        <m_idleAnimation>20</m_idleAnimation>
+        <m_sBodySource>|Mob|WorldData|Character/ZF_Mobs/ZF_Elephant_Blacktusk/ZF_Elephant_Blacktusk.nif</m_sBodySource>
+        <m_sGender>Neutral</m_sGender>
+        <m_sSkeletonSource>|Mob|WorldData|Character/ZF_Mobs/ZF_Elephant_Blacktusk/ZF_Elephant_BlackTusk.kfm</m_sSkeletonSource>
+      </Class>
+    </m_characterTables>
+    <m_defaultTable>
+      <Class Name="class CharacterElementTable">
+        <m_idleAnimation>0</m_idleAnimation>
+        <m_sBodySource>|Mob|WorldData|Character/ZF_Mobs/ZF_Elephant_Blacktusk/ZF_Elephant_Blacktusk.nif</m_sBodySource>
+        <m_sGender />
+        <m_sSkeletonSource>|Mob|WorldData|Character/ZF_Mobs/ZF_Elephant_Blacktusk/ZF_Elephant_BlackTusk.kfm</m_sSkeletonSource>
+      </Class>
+    </m_defaultTable>
+    <m_eRace>Transformation_ZF-Elephant</m_eRace>
+  </Class>
+</Objects>

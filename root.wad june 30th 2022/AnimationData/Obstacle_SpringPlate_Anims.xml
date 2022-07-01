@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Chest_Anims>
+  <_TableList>
+    <RECORD>
+      <Name TYPE="STR">Animations</Name>
+    </RECORD>
+    <RECORD>
+      <Name TYPE="STR">SkeletonMovement</Name>
+    </RECORD>
+  </_TableList>
+  <!--Automatic conversion from GP_Chest_Gold.kfm by Kobol-->
+  <Animations>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Down</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">0</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Shake</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">1</Animation0>
+    </RECORD>
+    <RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">PopUp</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">2</Animation0>
+    </RECORD>
+	<RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Up</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">3</Animation0>
+    </RECORD>
+	<RECORD>
+      <AnimType KEY="TRUE" TYPE="STR">Reset</AnimType>
+      <NumAnims TYPE="INT">1</NumAnims>
+      <Animation0 TYPE="UINT">4</Animation0>
+    </RECORD>
+  </Animations>
+  <SkeletonMovement>
+  </SkeletonMovement>
+</Chest_Anims>

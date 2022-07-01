@@ -1,0 +1,401 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>ToolTipContainer</m_sName>
+        <m_Children>
+            <Class Name="class ControlWidget">
+                <m_sName>ToolTip_Bckgrnd</m_sName>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE|NOCLIP|PARENT_SIZE|PARENT_WIDTH|PARENT_HEIGHT</m_Flags>
+                <m_Window>0,0,200,50</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont />
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FF808080</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                        <m_BackColor>FFD6D6D6</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>10</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_pWidgetBackground />
+                <m_pTopLeftCornerMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_TL.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pTopLeftCornerMaterial>
+                <m_pTopRightCornerMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class TextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_TR.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pTopRightCornerMaterial>
+                <m_pBottomLeftCornerMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_BL.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pBottomLeftCornerMaterial>
+                <m_pBottomRightCornerMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_BR.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pBottomRightCornerMaterial>
+                <m_pBottomEdgeMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_B.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pBottomEdgeMaterial>
+                <m_pTopEdgeMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_T.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pTopEdgeMaterial>
+                <m_pLeftEdgeMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_L.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pLeftEdgeMaterial>
+                <m_pRightEdgeMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class AlphaMaskTextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_R.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pRightEdgeMaterial>
+                <m_pCenterMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class TextureD3D">
+                                <m_sFilename>GUI/Tooltip/bubble_C.png</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pCenterMaterial>
+                <m_MaximumSize>99999,99999</m_MaximumSize>
+                <m_MinimumSize>64,64</m_MinimumSize>
+            </Class>
+        </m_Children>
+        <m_Children>
+            <Class Name="class ControlText">
+                <m_sName>ToolTipText</m_sName>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|EFFECT_FADEIN|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE|PARENT_SIZE|PARENT_WIDTH|PARENT_HEIGHT|HCENTER|VCENTER</m_Flags>
+                <m_Window>8,8,192,42</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.400000</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FF000000</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                        <m_BackColor>FFFFFFFF</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>16</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>8,8,-8,-8</m_ParentOffset>
+                <m_sText>&amp;#60;string;GUI_00000989&amp;#62;</m_sText>
+                <m_bUseDropShadow>0</m_bUseDropShadow>
+                <m_bEnableWordWrap>0</m_bEnableWordWrap>
+                <m_bEnableToggle>1</m_bEnableToggle>
+                <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                <m_sTooltip></m_sTooltip>
+            </Class>
+        </m_Children>
+        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|EFFECT_FADEIN</m_Style>
+        <m_Flags>VISIBLE|NOCLIP</m_Flags>
+        <m_Window>50,50,250,100</m_Window>
+        <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+        <m_fAlpha>1.000000</m_fAlpha>
+        <m_pWindowStyle>
+            <Class Name="class WindowStyle">
+                <m_pBackMaterial>
+                    <Class Name="class Material">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap />
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FFFFFFFF</m_Diffuse>
+                        <m_Ambient>00FFFFFF</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>1.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>0</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                    </Class>
+                </m_pBackMaterial>
+                <m_pFont>
+                    <Class Name="class FontGlyphis">
+                        <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                        <m_fScale>0.400000</m_fScale>
+                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                    </Class>
+                </m_pFont>
+                <m_pLargeFont />
+                <m_pSmallFont />
+                <m_Color>FFFFFFFF</m_Color>
+                <m_HighColor>FFFFFFFF</m_HighColor>
+                <m_SelectColor>FF00FFFF</m_SelectColor>
+                <m_BorderColor>FF323232</m_BorderColor>
+                <m_BackColor>FFFFFFFF</m_BackColor>
+                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                <m_nBorderSize>0</m_nBorderSize>
+                <m_nScrollSize>10</m_nScrollSize>
+                <m_sHoverSound></m_sHoverSound>
+                <m_sSelectSound></m_sSelectSound>
+            </Class>
+        </m_pWindowStyle>
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1.000000,1.000000</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

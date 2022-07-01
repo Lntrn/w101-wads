@@ -1,0 +1,174 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>WizardChatWindow</m_sName>
+        <m_Children>
+            <Class Name="class ControlEdit">
+                <m_sName>chatEdit</m_sName>
+                <m_Style>HAS_BACK</m_Style>
+                <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                <m_Window>5,113,546,132</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.400000</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FF400080</m_BorderColor>
+                        <m_BackColor>FF004080</m_BackColor>
+                        <m_ScrollBarColor>FFFFFFFF</m_ScrollBarColor>
+                        <m_ScrollTabColor>FFFFFFFF</m_ScrollTabColor>
+                        <m_nBorderSize>2</m_nBorderSize>
+                        <m_nScrollSize>10</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_sText></m_sText>
+                <m_nMaxLength>-1</m_nMaxLength>
+                <m_bPassword>0</m_bPassword>
+                <m_bLog>1</m_bLog>
+                <m_nMaxLogSize>50</m_nMaxLogSize>
+                <m_bEditing>0</m_bEditing>
+                <m_bAllowPaste>1</m_bAllowPaste>
+                <m_nLogPosition>-1</m_nLogPosition>
+                <m_nCursor>0</m_nCursor>
+                <m_nEditBegin>0</m_nEditBegin>
+                <m_nEditEnd>-1</m_nEditEnd>
+                <m_sSavedText></m_sSavedText>
+                <m_fCursorBlinkSpeed>0.500000</m_fCursorBlinkSpeed>
+                <m_fCursorTimer>0.000000</m_fCursorTimer>
+                <m_bCursorBlink>0</m_bCursorBlink>
+                <m_fMinRange>-179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000</m_fMinRange>
+                <m_fMaxRange>179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000</m_fMaxRange>
+                <m_nPrecision>2</m_nPrecision>
+            </Class>
+        </m_Children>
+        <m_Children>
+            <Class Name="class Window">
+                <m_sName>chatLogContainer</m_sName>
+                <m_Children>
+                    <Class Name="class ControlText">
+                        <m_sName>chatLog</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|PARENT_WIDTH</m_Flags>
+                        <m_Window>2,2,539,26</m_Window>
+                        <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                        <m_fAlpha>1.000000</m_fAlpha>
+                        <m_pWindowStyle>
+                            <Class Name="class WindowStyle">
+                                <m_pBackMaterial />
+                                <m_pFont />
+                                <m_pLargeFont />
+                                <m_pSmallFont />
+                                <m_Color>FFFFFFFF</m_Color>
+                                <m_HighColor>FFFFFFFF</m_HighColor>
+                                <m_SelectColor>FF00FFFF</m_SelectColor>
+                                <m_BorderColor>FF0474AC</m_BorderColor>
+                                <m_BackColor>FF141414</m_BackColor>
+                                <m_ScrollBarColor>FFFFFFFF</m_ScrollBarColor>
+                                <m_ScrollTabColor>FFFFFFFF</m_ScrollTabColor>
+                                <m_nBorderSize>2</m_nBorderSize>
+                                <m_nScrollSize>10</m_nScrollSize>
+                                <m_sHoverSound></m_sHoverSound>
+                                <m_sSelectSound></m_sSelectSound>
+                            </Class>
+                        </m_pWindowStyle>
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1.000000,1.000000</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_sText></m_sText>
+                        <m_bUseDropShadow>0</m_bUseDropShadow>
+                        <m_bEnableWordWrap>1</m_bEnableWordWrap>
+                        <m_bEnableToggle>1</m_bEnableToggle>
+                        <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                        <m_sTooltip></m_sTooltip>
+                    </Class>
+                </m_Children>
+                <m_Style>HAS_BACK|CAN_SCROLL</m_Style>
+                <m_Flags>VISIBLE</m_Flags>
+                <m_Window>5,4,546,108</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle />
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+            </Class>
+        </m_Children>
+        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+        <m_Flags>VISIBLE|NOCLIP|DOCK_BOTTOM|HCENTER</m_Flags>
+        <m_Window>158,592,707,731</m_Window>
+        <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+        <m_fAlpha>1.000000</m_fAlpha>
+        <m_pWindowStyle>
+            <Class Name="class WindowStyle">
+                <m_pBackMaterial />
+                <m_pFont>
+                    <Class Name="class FontGlyphis">
+                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                        <m_fScale>0.400000</m_fScale>
+                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                    </Class>
+                </m_pFont>
+                <m_pLargeFont>
+                    <Class Name="class FontGlyphis">
+                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                        <m_fScale>0.625000</m_fScale>
+                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                    </Class>
+                </m_pLargeFont>
+                <m_pSmallFont>
+                    <Class Name="class FontGlyphis">
+                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                        <m_fScale>0.416600</m_fScale>
+                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                    </Class>
+                </m_pSmallFont>
+                <m_Color>FFFFFFFF</m_Color>
+                <m_HighColor>FFFFFFFF</m_HighColor>
+                <m_SelectColor>FF00FFFF</m_SelectColor>
+                <m_BorderColor>FF0474AC</m_BorderColor>
+                <m_BackColor>FF000000</m_BackColor>
+                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                <m_nBorderSize>2</m_nBorderSize>
+                <m_nScrollSize>10</m_nScrollSize>
+                <m_sHoverSound></m_sHoverSound>
+                <m_sSelectSound></m_sSelectSound>
+            </Class>
+        </m_pWindowStyle>
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1.000000,1.000000</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

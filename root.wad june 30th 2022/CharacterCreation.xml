@@ -1,0 +1,475 @@
+<?xml version="1.0" ?>
+<!-- Character Creation questions -->
+<!-- How this works: -->
+<!-- * Ask questions 1 through 7 in sequence -->
+<!-- * For each question, pick a random variant of that question of there are any -->
+<!-- * Randomize the order the answers are displayed in -->
+<!-- * Each answer will increment one or more school of focus flags; accumulate the total -->
+<!--   flags for each school -->
+<!-- * The final question lets the player pick their class based on the gem they choose. -->
+<!--   The gems presented are for the top 2 scores for schools of focus, however many there -->
+<!--   may be.  Sometimes there will be 2 gems, sometimes 7, based on the previous answers.  -->
+<CharacterCreation NumQuestions="7">
+  
+    <!-- Question #1 -->
+    <Question Index="1" NumVariants="4">
+      <Variant Index="1" NumAnswers="2">
+        <Text>I like to spend my time...</Text>
+        <StringTable>CLASS_QUESTION_1_A</StringTable>
+        <Answer Index="1">
+          <Text>...by myself</Text>
+          <StringTable>CLASS_ANSWER_1_A_1</StringTable>
+          <Icon>Art_Class_Doodle_Ice01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...with my friends</Text>
+          <StringTable>CLASS_ANSWER_1_A_2</StringTable>
+          <Icon>Art_Class_Doodle_Ice02.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="2" NumAnswers="2">
+        <Text>What is more important to you?</Text>
+        <StringTable>CLASS_QUESTION_1_B</StringTable>
+        <Answer Index="1">
+          <Text>Show off my skills</Text>
+          <StringTable>CLASS_ANSWER_1_B_1</StringTable>
+          <Icon>Art_Class_Doodle_Ice03.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Be part of a winning team</Text>
+          <StringTable>CLASS_ANSWER_1_B_2</StringTable>
+          <Icon>Art_Class_Doodle_Ice04.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="3" NumAnswers="2">
+        <Text>When I compete, my goal is to win...</Text>
+        <StringTable>CLASS_QUESTION_1_C</StringTable>
+        <Answer Index="1">
+          <Text>...a medal for myself</Text>
+          <StringTable>CLASS_ANSWER_1_C_1</StringTable>
+          <Icon>Art_Class_Doodle_Ice05.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...a trophy for my team</Text>
+          <StringTable>CLASS_ANSWER_1_C_2</StringTable>
+          <Icon>Art_Class_Doodle_Ice06.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="4" NumAnswers="2">
+        <Text>I would rather...</Text>
+        <StringTable>CLASS_QUESTION_1_D</StringTable>
+        <Answer Index="1">
+          <Text>...play by myself</Text>
+          <StringTable>CLASS_ANSWER_1_D_1</StringTable>
+          <Icon>Art_Class_Doodle_Ice07.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...go to a party</Text>
+          <StringTable>CLASS_ANSWER_1_D_2</StringTable>
+          <Icon>Art_Class_Doodle_Ice08.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+    <!-- Question #2 -->
+    <Question Index="2" NumVariants="1">
+      <Variant Index="1" NumAnswers="7">
+        <Text>Which of these is the most powerful?</Text>
+        <StringTable>CLASS_QUESTION_2</StringTable>
+        <Answer Index="1">
+          <Text>Volcano</Text>
+          <StringTable>CLASS_ANSWER_2_1</StringTable>
+          <Icon>Art_Class_Doodle_Death01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Blizzard</Text>
+          <StringTable>CLASS_ANSWER_2_2</StringTable>
+          <Icon>Art_Class_Doodle_Death02.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Hurricane</Text>
+          <StringTable>CLASS_ANSWER_2_3</StringTable>
+          <Icon>Art_Class_Doodle_Death03.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>Earthquake</Text>
+          <StringTable>CLASS_ANSWER_2_4</StringTable>
+          <Icon>Art_Class_Doodle_Death04.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>Tornado</Text>
+          <StringTable>CLASS_ANSWER_2_5</StringTable>
+          <Icon>Art_Class_Doodle_Death05.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="6">
+          <Text>Plague</Text>
+          <StringTable>CLASS_ANSWER_2_6</StringTable>
+          <Icon>Art_Class_Doodle_Death06.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="7">
+          <Text>Sandstorm</Text>
+          <StringTable>CLASS_ANSWER_2_7</StringTable>
+          <Icon>Art_Class_Doodle_Death07.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+    </Question>
+  
+    <!-- Question #3 -->
+    <Question Index="3" NumVariants="3">
+      
+      <Variant Index="1" NumAnswers="5">
+        <Text>My favorite class in school is...</Text>
+        <StringTable>CLASS_QUESTION_3_A</StringTable>
+        <Answer Index="1">
+          <Text>Reading and Writing</Text>
+          <StringTable>CLASS_ANSWER_3_A_1</StringTable>
+          <Icon>Art_Class_Doodle_Storm01.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Science or Math</Text>
+          <StringTable>CLASS_ANSWER_3_A_2</StringTable>
+          <Icon>Art_Class_Doodle_Storm02.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Health</Text>
+          <StringTable>CLASS_ANSWER_3_A_3</StringTable>
+          <Icon>Art_Class_Doodle_Storm03.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>Sports</Text>
+          <StringTable>CLASS_ANSWER_3_A_4</StringTable>
+          <Icon>Art_Class_Doodle_Storm04.dds</Icon>
+          <Flags Fire="1" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>I like all of my classes</Text>
+          <StringTable>CLASS_ANSWER_3_A_5</StringTable>
+          <Icon>Art_Class_Doodle_Storm05.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="2" NumAnswers="6">
+        <Text>Which best describes you?</Text>
+        <StringTable>CLASS_QUESTION_3_B</StringTable>
+        <Answer Index="1">
+          <Text>I am fast and athletic</Text>
+          <StringTable>CLASS_ANSWER_3_B_1</StringTable>
+          <Icon>Art_Class_Doodle_Storm06.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>I am smart, and I study hard</Text>
+          <StringTable>CLASS_ANSWER_3_B_2</StringTable>
+          <Icon>Art_Class_Doodle_Storm07.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>I am a great listener and a good friend</Text>
+          <StringTable>CLASS_ANSWER_3_B_3</StringTable>
+          <Icon>Art_Class_Doodle_Storm08.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>I am honest and hard-working</Text>
+          <StringTable>CLASS_ANSWER_3_B_4</StringTable>
+          <Icon>Art_Class_Doodle_Storm09.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>I am extremely creative</Text>
+          <StringTable>CLASS_ANSWER_3_B_5</StringTable>
+          <Icon>Art_Class_Doodle_Storm10.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="6">
+          <Text>I am very well-rounded</Text>
+          <StringTable>CLASS_ANSWER_3_B_6</StringTable>
+          <Icon>Art_Class_Doodle_Storm11.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="3" NumAnswers="6">
+        <Text>My favorite activity is...</Text>
+        <StringTable>CLASS_QUESTION_3_C</StringTable>
+        <Answer Index="1">
+          <Text>...competitive sports</Text>
+          <StringTable>CLASS_ANSWER_3_C_1</StringTable>
+          <Icon>Art_Class_Doodle_Storm12.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...learning something new</Text>
+          <StringTable>CLASS_ANSWER_3_C_2</StringTable>
+          <Icon>Art_Class_Doodle_Storm13.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>...playing with my pets</Text>
+          <StringTable>CLASS_ANSWER_3_C_3</StringTable>
+          <Icon>Art_Class_Doodle_Storm14.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="1" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>...camping or fishing</Text>
+          <StringTable>CLASS_ANSWER_3_C_4</StringTable>
+          <Icon>Art_Class_Doodle_Storm15.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>...reading, playing games</Text>
+          <StringTable>CLASS_ANSWER_3_C_5</StringTable>
+          <Icon>Art_Class_Doodle_Storm16.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="6">
+          <Text>...I can't decide</Text>
+          <StringTable>CLASS_ANSWER_3_C_6</StringTable>
+          <Icon>Art_Class_Doodle_Storm17.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+    <!-- Question #4 -->
+    <Question Index="4" NumVariants="2">
+      
+      <Variant Index="1" NumAnswers="3">
+        <Text>What's your favorite time of day?</Text>
+        <StringTable>CLASS_QUESTION_4_A</StringTable>
+        <Answer Index="1">
+          <Text>Morning</Text>
+          <StringTable>CLASS_ANSWER_4_A_1</StringTable>
+          <Icon>Art_Class_Doodle_Life01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Afternoon</Text>
+          <StringTable>CLASS_ANSWER_4_A_2</StringTable>
+          <Icon>Art_Class_Doodle_Life02.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="1" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Night</Text>
+          <StringTable>CLASS_ANSWER_4_A_3</StringTable>
+          <Icon>Art_Class_Doodle_Life03.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="1" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="2" NumAnswers="4">
+        <Text>What's your favorite season?</Text>
+        <StringTable>CLASS_QUESTION_4_B</StringTable>
+        <Answer Index="1">
+          <Text>Summer</Text>
+          <StringTable>CLASS_ANSWER_4_B_1</StringTable>
+          <Icon>Art_Class_Doodle_Life04.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Winter</Text>
+          <StringTable>CLASS_ANSWER_4_B_2</StringTable>
+          <Icon>Art_Class_Doodle_Life05.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Spring</Text>
+          <StringTable>CLASS_ANSWER_4_B_3</StringTable>
+          <Icon>Art_Class_Doodle_Life06.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+        <Answer Index="4">
+          <Text>Fall</Text>
+          <StringTable>CLASS_ANSWER_4_B_4</StringTable>
+          <Icon>Art_Class_Doodle_Life07.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+    <!-- Question #5 -->
+    <Question Index="5" NumVariants="3">
+      
+      <Variant Index="1" NumAnswers="2">
+        <Text>What is more important to you?</Text>
+        <StringTable>CLASS_QUESTION_5_A</StringTable>
+        <Answer Index="1">
+          <Text>Competing against others</Text>
+          <StringTable>CLASS_ANSWER_5_A_1</StringTable>
+          <Icon>Art_Class_Doodle_Fire01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Cooperating with others</Text>
+          <StringTable>CLASS_ANSWER_5_A_2</StringTable>
+          <Icon>Art_Class_Doodle_Fire02.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="2" NumAnswers="2">
+        <Text>I would rather be...</Text>
+        <StringTable>CLASS_QUESTION_5_B</StringTable>
+        <Answer Index="1">
+          <Text>...the leader of a group</Text>
+          <StringTable>CLASS_ANSWER_5_B_1</StringTable>
+          <Icon>Art_Class_Doodle_Fire03.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...part of a winning team</Text>
+          <StringTable>CLASS_ANSWER_5_B_2</StringTable>
+          <Icon>Art_Class_Doodle_Fire04.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+      <Variant Index="3" NumAnswers="2">
+        <Text>A great story is driven by...</Text>
+        <StringTable>CLASS_QUESTION_5_C</StringTable>
+        <Answer Index="1">
+          <Text>...the hero, or heroine</Text>
+          <StringTable>CLASS_ANSWER_5_C_1</StringTable>
+          <Icon>Art_Class_Doodle_Fire05.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="1" Myth="1" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>...all of the characters</Text>
+          <StringTable>CLASS_ANSWER_5_C_2</StringTable>
+          <Icon>Art_Class_Doodle_Fire06.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="1" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+    <!-- Question #6 -->
+    <Question Index="6" NumVariants="1">
+      
+      <Variant Index="1" NumAnswers="7">
+        <Text>What is your favorite animal?</Text>
+        <StringTable>CLASS_QUESTION_6</StringTable>
+        <Answer Index="1">
+          <Text>Dragon</Text>
+          <StringTable>CLASS_ANSWER_6_1</StringTable>
+          <Icon>Art_Class_Doodle_Myth01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Unicorn</Text>
+          <StringTable>CLASS_ANSWER_6_2</StringTable>
+          <Icon>Art_Class_Doodle_Myth02.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Bat</Text>
+          <StringTable>CLASS_ANSWER_6_3</StringTable>
+          <Icon>Art_Class_Doodle_Myth03.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>Polar Bear</Text>
+          <StringTable>CLASS_ANSWER_6_4</StringTable>
+          <Icon>Art_Class_Doodle_Myth04.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>Shark</Text>
+          <StringTable>CLASS_ANSWER_6_5</StringTable>
+          <Icon>Art_Class_Doodle_Myth05.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="6">
+          <Text>Crab</Text>
+          <StringTable>CLASS_ANSWER_6_6</StringTable>
+          <Icon>Art_Class_Doodle_Myth06.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+        <Answer Index="7">
+          <Text>Serpent</Text>
+          <StringTable>CLASS_ANSWER_6_7</StringTable>
+          <Icon>Art_Class_Doodle_Myth07.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+    <!-- Question #7 -->
+    <Question Index="7" NumVariants="1">
+      
+      <Variant Index="1" NumAnswers="7">
+        <Text>What's your favorite Gem Stone?</Text>
+        <StringTable>CLASS_QUESTION_7</StringTable>
+        <Answer Index="1">
+          <Text>Ruby</Text>
+          <StringTable>CLASS_ANSWER_7_1</StringTable>
+          <Icon>Art_Class_Doodle_Balance01.dds</Icon>
+          <Flags Fire="1" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="2">
+          <Text>Sapphire</Text>
+          <StringTable>CLASS_ANSWER_7_2</StringTable>
+          <Icon>Art_Class_Doodle_Balance02.dds</Icon>
+          <Flags Fire="0" Ice="1" Storm="0" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="3">
+          <Text>Amethyst</Text>
+          <StringTable>CLASS_ANSWER_7_3</StringTable>
+          <Icon>Art_Class_Doodle_Balance03.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="1" Myth="0" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="4">
+          <Text>Peridot</Text>
+          <StringTable>CLASS_ANSWER_7_4</StringTable>
+          <Icon>Art_Class_Doodle_Balance04.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="1" Life="0" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="5">
+          <Text>Jade</Text>
+          <StringTable>CLASS_ANSWER_7_5</StringTable>
+          <Icon>Art_Class_Doodle_Balance05.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="1" Death="0" Balance="0" />
+        </Answer>
+        <Answer Index="6">
+          <Text>Onyx</Text>
+          <StringTable>CLASS_ANSWER_7_6</StringTable>
+          <Icon>Art_Class_Doodle_Balance06.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="1" Balance="0" />
+        </Answer>
+        <Answer Index="7">
+          <Text>Citrine</Text>
+          <StringTable>CLASS_ANSWER_7_7</StringTable>
+          <Icon>Art_Class_Doodle_Balance07.dds</Icon>
+          <Flags Fire="0" Ice="0" Storm="0" Myth="0" Life="0" Death="0" Balance="1" />
+        </Answer>
+      </Variant>
+      
+    </Question>
+  
+</CharacterCreation>

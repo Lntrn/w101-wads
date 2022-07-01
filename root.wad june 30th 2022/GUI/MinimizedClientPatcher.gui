@@ -1,0 +1,177 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>MinimizedClientPatcher</m_sName>
+        <m_Children>
+            <Class Name="class ControlSprite">
+                <m_sName>TransferSprite</m_sName>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE</m_Flags>
+                <m_Window>0,0,64,64</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle />
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_pMaterial>
+                    <Class Name="class TileMaterial">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class TextureD3D">
+                                <m_sFilename>GUI/Art/Arrow_Download.dds</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1.000000</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0.000000</m_fSpecularPower>
+                        <m_Frames>0.000000,0.000000,0.250000,0.500000</m_Frames>
+                        <m_Frames>0.250000,0.000000,0.500000,0.500000</m_Frames>
+                        <m_Frames>0.500000,0.000000,0.750000,0.500000</m_Frames>
+                        <m_Frames>0.750000,0.000000,1.000000,0.500000</m_Frames>
+                        <m_Frames>0.000000,0.500000,0.250000,1.000000</m_Frames>
+                        <m_Frames>0.250000,0.500000,0.500000,1.000000</m_Frames>
+                        <m_Frames>0.500000,0.500000,0.750000,1.000000</m_Frames>
+                        <m_Frames>0.750000,0.500000,1.000000,1.000000</m_Frames>
+                        <m_nCurrentFrame>7</m_nCurrentFrame>
+                        <m_fAnimRate>2.000000</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>7</m_nAnimEnd>
+                        <m_fMaterialScaleX>1.000000</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1.000000</m_fMaterialScaleY>
+                        <m_TilesX>4</m_TilesX>
+                        <m_TilesY>2</m_TilesY>
+                    </Class>
+                </m_pMaterial>
+                <m_fRotation>0.000000</m_fRotation>
+                <m_Color>FFFFFFFF</m_Color>
+                <m_textColor>FFFFFFFF</m_textColor>
+                <m_textComponent>
+                    <Class Name="class TextComponent">
+                        <m_useDropShadow>1</m_useDropShadow>
+                    </Class>
+                </m_textComponent>
+            </Class>
+        </m_Children>
+        <m_Children>
+            <Class Name="class ControlText">
+                <m_sName>TransferProgressText</m_sName>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE|HCENTER|VCENTER</m_Flags>
+                <m_Window>1,20,62,44</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.500000</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                        <m_BackColor>FFFFFFFF</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>16</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_sText>&amp;#60;string;GUI_00000703&amp;#62;</m_sText>
+                <m_bUseDropShadow>1</m_bUseDropShadow>
+                <m_bEnableWordWrap>0</m_bEnableWordWrap>
+                <m_bEnableToggle>1</m_bEnableToggle>
+                <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                <m_sTooltip></m_sTooltip>
+            </Class>
+        </m_Children>
+        <m_Children>
+            <Class Name="class ControlText">
+                <m_sName>PackageNameText</m_sName>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE|NOCLIP|DOCK_OUTSIDE|DOCK_BOTTOM</m_Flags>
+                <m_Window>3,65,25,89</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+                <m_fAlpha>1.000000</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.350000</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                        <m_BackColor>FFFFFFFF</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>16</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1.000000,1.000000</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_sText>&amp;#60;string;GUI_00000704&amp;#62;</m_sText>
+                <m_bUseDropShadow>1</m_bUseDropShadow>
+                <m_bEnableWordWrap>0</m_bEnableWordWrap>
+                <m_bEnableToggle>1</m_bEnableToggle>
+                <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                <m_sTooltip></m_sTooltip>
+            </Class>
+        </m_Children>
+        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+        <m_Flags>VISIBLE|NOCLIP</m_Flags>
+        <m_Window>0,0,64,64</m_Window>
+        <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.400000</m_fDisabledAlpha>
+        <m_fAlpha>1.000000</m_fAlpha>
+        <m_pWindowStyle />
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1.000000,1.000000</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

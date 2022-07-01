@@ -1,0 +1,220 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>windowQuickChat</m_sName>
+        <m_Children>
+            <Class Name="class ScrollablePopupButton">
+                <m_sName>btnRadialQuickChat</m_sName>
+                <m_Style>HAS_NO_BORDER|POPDOWN_SIBLINGS</m_Style>
+                <m_Flags>VISIBLE|NOCLIP|DOCK_LEFT|DOCK_TOP</m_Flags>
+                <m_Window>0,0,62,62</m_Window>
+                <m_fTargetAlpha>1.000000</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                <m_fAlpha>1</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.48</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FF000000</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FF323232</m_BorderColor>
+                        <m_BackColor>FF808080</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>10</m_nScrollSize>
+                        <m_sHoverSound>Sound/GUI/ui_easychat_hover.wav</m_sHoverSound>
+                        <m_sSelectSound>Sound/GUI/ui_easychat_click.wav</m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1,1</m_Scale>
+                <m_sTip>&lt;string;GUI2_00000344&gt;</m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_bToggle>0</m_bToggle>
+                <m_bButtonDown>0</m_bButtonDown>
+                <m_sLabel></m_sLabel>
+                <m_labelOffset>12,0,0,0</m_labelOffset>
+                <m_pButton>
+                    <Class Name="class TileMaterial">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class TextureD3D">
+                                <m_sFilename>HUD/Button_Chat_Normal2.dds</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0</m_fSpecularPower>
+                        <m_Frames>0,0,0.5,1</m_Frames>
+                        <m_Frames>0.5,0,1,1</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>15</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>1</m_nAnimEnd>
+                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                        <m_TilesX>2</m_TilesX>
+                        <m_TilesY>1</m_TilesY>
+                    </Class>
+                </m_pButton>
+                <m_HotKey>0</m_HotKey>
+                <m_Color>FFFFFFFF</m_Color>
+                <m_bCursorOver>0</m_bCursorOver>
+                <m_bAbortWhenCursorNotOver>0</m_bAbortWhenCursorNotOver>
+                <m_bHotKeyDown>0</m_bHotKeyDown>
+                <m_fTime>0</m_fTime>
+                <m_bGreyed>0</m_bGreyed>
+                <m_fMaxScale>1.15</m_fMaxScale>
+                <m_fScaleSpeed>2</m_fScaleSpeed>
+                <m_bUseDropShadow>0</m_bUseDropShadow>
+                <m_pGreyedState />
+                <m_pNormalState>
+                    <Class Name="class StaticControlButtonState">
+                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                    </Class>
+                </m_pNormalState>
+                <m_pHighlightedState>
+                    <Class Name="class StaticControlButtonState">
+                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                    </Class>
+                </m_pHighlightedState>
+                <m_pSelectedState />
+                <m_pDepressedState />
+                <m_bUp>0</m_bUp>
+            </Class>
+        </m_Children>
+        <m_Children>
+            <Class Name="class ScrollablePopupButton">
+                <m_sName>btnHelpChat</m_sName>
+                <m_Style>HAS_NO_BORDER|POPDOWN_SIBLINGS</m_Style>
+                <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                <m_Window>55,0,118,63</m_Window>
+                <m_fTargetAlpha>1</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                <m_fAlpha>1</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial />
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.48</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont />
+                        <m_pSmallFont />
+                        <m_Color>FF000000</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                        <m_BackColor>FF808080</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>16</m_nScrollSize>
+                        <m_sHoverSound>Sound/GUI/ui_easychat_hover.wav</m_sHoverSound>
+                        <m_sSelectSound>Sound/GUI/ui_easychat_click.wav</m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1,1</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                <m_bToggle>0</m_bToggle>
+                <m_bButtonDown>0</m_bButtonDown>
+                <m_sLabel></m_sLabel>
+                <m_labelOffset>12,0,0,0</m_labelOffset>
+                <m_pButton>
+                    <Class Name="class TileMaterial">
+                        <m_sMaterialName></m_sMaterialName>
+                        <m_Blending>B_ALPHA</m_Blending>
+                        <m_eRepeat>R_NONE</m_eRepeat>
+                        <m_pDiffuseMap>
+                            <Class Name="class TextureD3D">
+                                <m_sFilename>HUD/Button_Chat_Help.dds</m_sFilename>
+                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                <m_bDoubleSided>0</m_bDoubleSided>
+                                <m_bMipMap>0</m_bMipMap>
+                            </Class>
+                        </m_pDiffuseMap>
+                        <m_pAlphaMask />
+                        <m_fLastAlpha>1</m_fLastAlpha>
+                        <m_Diffuse>FF808080</m_Diffuse>
+                        <m_Ambient>00808080</m_Ambient>
+                        <m_Specular>00FFFFFF</m_Specular>
+                        <m_fSpecularPower>0</m_fSpecularPower>
+                        <m_Frames>0,0,0.5,1</m_Frames>
+                        <m_Frames>0.5,0,1,1</m_Frames>
+                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                        <m_fAnimRate>0</m_fAnimRate>
+                        <m_nAnimBegin>0</m_nAnimBegin>
+                        <m_nAnimEnd>1</m_nAnimEnd>
+                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                        <m_TilesX>2</m_TilesX>
+                        <m_TilesY>1</m_TilesY>
+                    </Class>
+                </m_pButton>
+                <m_HotKey>0</m_HotKey>
+                <m_Color>FFFFFFFF</m_Color>
+                <m_bCursorOver>0</m_bCursorOver>
+                <m_bAbortWhenCursorNotOver>0</m_bAbortWhenCursorNotOver>
+                <m_bHotKeyDown>0</m_bHotKeyDown>
+                <m_fTime>0</m_fTime>
+                <m_bGreyed>0</m_bGreyed>
+                <m_fMaxScale>1.15</m_fMaxScale>
+                <m_fScaleSpeed>2</m_fScaleSpeed>
+                <m_bUseDropShadow>0</m_bUseDropShadow>
+                <m_pGreyedState />
+                <m_pNormalState>
+                    <Class Name="class StaticControlButtonState">
+                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                    </Class>
+                </m_pNormalState>
+                <m_pHighlightedState>
+                    <Class Name="class StaticControlButtonState">
+                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                    </Class>
+                </m_pHighlightedState>
+                <m_pSelectedState />
+                <m_pDepressedState />
+                <m_bUp>0</m_bUp>
+            </Class>
+        </m_Children>
+        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+        <m_Flags>VISIBLE|NOCLIP|DOCK_LEFT</m_Flags>
+        <m_Window>0,65,299,134</m_Window>
+        <m_fTargetAlpha>1</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+        <m_fAlpha>1</m_fAlpha>
+        <m_pWindowStyle />
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1,1</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<client>
+	<ClientSetup>
+		<RECORD>
+			<ServerName TYPE="STR">wiz01</ServerName>
+			<TCPPort TYPE="UINT">11000</TCPPort>
+			<UDPPort TYPE="UINT">11001</UDPPort>
+			<DataRootPath TYPE="STR">../data/GameData</DataRootPath>
+		</RECORD>
+	</ClientSetup>
+</client>

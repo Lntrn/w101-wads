@@ -1,0 +1,53 @@
+<TourneyNameTable>
+   <Table Name="FirstName">
+      <Section>TourneyNames</Section>
+      <TourneyName>First_0</TourneyName>
+      <TourneyName>First_1</TourneyName>
+      <TourneyName>First_2</TourneyName>
+      <TourneyName>First_3</TourneyName>
+      <TourneyName>First_4</TourneyName>
+      <TourneyName>First_5</TourneyName>
+      <TourneyName>First_6</TourneyName>
+      <TourneyName>First_7</TourneyName>
+      <TourneyName>First_8</TourneyName>
+      <TourneyName>First_9</TourneyName>
+      <TourneyName>First_10</TourneyName>
+      <TourneyName>First_11</TourneyName>
+      <TourneyName>First_12</TourneyName>
+      <TourneyName>First_13</TourneyName>
+      <TourneyName>First_14</TourneyName>
+      <TourneyName>First_15</TourneyName>
+      <TourneyName>First_16</TourneyName>
+      <TourneyName>First_17</TourneyName>
+      <TourneyName>First_18</TourneyName>
+      <TourneyName>First_19</TourneyName>
+      <TourneyName>First_20</TourneyName>
+      <TourneyName>First_21</TourneyName>
+      <TourneyName>First_22</TourneyName>
+      <TourneyName>First_23</TourneyName>
+      <TourneyName>First_24</TourneyName>
+      <TourneyName>First_25</TourneyName>
+      <TourneyName>First_26</TourneyName>
+      <TourneyName>First_27</TourneyName>
+   </Table>
+   <Table Name="TeamName">
+      <Section>TourneyNames</Section>
+      <TourneyName>TeamNameDefault</TourneyName>
+      <TourneyName>Team_0</TourneyName>
+      <TourneyName>Team_1</TourneyName>
+      <TourneyName>Team_2</TourneyName>
+      <TourneyName>Team_3</TourneyName>
+      <TourneyName>Team_4</TourneyName>
+      <TourneyName>Team_5</TourneyName>
+      <TourneyName>Team_6</TourneyName>
+      <TourneyName>Team_7</TourneyName>
+      <TourneyName>Team_8</TourneyName>
+      <TourneyName>Team_9</TourneyName>
+      <TourneyName>Team_10</TourneyName>
+      <TourneyName>Team_11</TourneyName>
+      <TourneyName>Team_12</TourneyName>
+      <TourneyName>Team_13</TourneyName>
+      <TourneyName>Team_14</TourneyName>
+      <TourneyName>Team_15</TourneyName>
+   </Table>
+</TourneyNameTable>

@@ -1,0 +1,234 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>QuestHelperHud</m_sName>
+        <m_Children>
+            <Class Name="class Window">
+                <m_sName>ElementWindow</m_sName>
+                <m_Children>
+                    <Class Name="class PortraitWindow">
+                        <m_sName>ArrowWindow</m_sName>
+                        <m_Children>
+                            <Class Name="class ControlText">
+                                <m_sName>txtDistance</m_sName>
+                                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                                <m_Flags>VISIBLE|HCENTER</m_Flags>
+                                <m_Window>-115,34,264,58</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle>
+                                    <Class Name="class WindowStyle">
+                                        <m_pBackMaterial />
+                                        <m_pFont>
+                                            <Class Name="class FontGlyphis">
+                                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                <m_fScale>0.45</m_fScale>
+                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                            </Class>
+                                        </m_pFont>
+                                        <m_pLargeFont />
+                                        <m_pSmallFont />
+                                        <m_Color>FF000000</m_Color>
+                                        <m_HighColor>FFFFFFFF</m_HighColor>
+                                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                                        <m_BorderColor>FFFFFFFF</m_BorderColor>
+                                        <m_BackColor>FFFFFFFF</m_BackColor>
+                                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                        <m_nBorderSize>0</m_nBorderSize>
+                                        <m_nScrollSize>16</m_nScrollSize>
+                                        <m_sHoverSound></m_sHoverSound>
+                                        <m_sSelectSound></m_sSelectSound>
+                                    </Class>
+                                </m_pWindowStyle>
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                <m_sText></m_sText>
+                                <m_bUseDropShadow>0</m_bUseDropShadow>
+                                <m_bEnableWordWrap>1</m_bEnableWordWrap>
+                                <m_bEnableToggle>1</m_bEnableToggle>
+                                <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                                <m_sTooltip></m_sTooltip>
+                            </Class>
+                        </m_Children>
+                        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|HCENTER</m_Flags>
+                        <m_Window>225,39,375,149</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial />
+                        <m_alphaMask />
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class Window">
+                        <m_sName></m_sName>
+                        <m_Children>
+                            <Class Name="class ControlText">
+                                <m_sName>txtGoalName</m_sName>
+                                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                                <m_Flags>VISIBLE|PARENT_WIDTH|HCENTER</m_Flags>
+                                <m_Window>0,68,600,87</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle />
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                <m_sText></m_sText>
+                                <m_bUseDropShadow>1</m_bUseDropShadow>
+                                <m_bEnableWordWrap>1</m_bEnableWordWrap>
+                                <m_bEnableToggle>1</m_bEnableToggle>
+                                <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                                <m_sTooltip></m_sTooltip>
+                            </Class>
+                        </m_Children>
+                        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|PARENT_WIDTH|HCENTER</m_Flags>
+                        <m_Window>0,63,600,190</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle>
+                            <Class Name="class WindowStyle">
+                                <m_pBackMaterial />
+                                <m_pFont>
+                                    <Class Name="class FontGlyphis">
+                                        <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                        <m_fScale>0.4</m_fScale>
+                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                    </Class>
+                                </m_pFont>
+                                <m_pLargeFont />
+                                <m_pSmallFont />
+                                <m_Color>FF00FFFF</m_Color>
+                                <m_HighColor>FFFFFFFF</m_HighColor>
+                                <m_SelectColor>FF00FFFF</m_SelectColor>
+                                <m_BorderColor>FFFFFFFF</m_BorderColor>
+                                <m_BackColor>FFFFFFFF</m_BackColor>
+                                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                <m_nBorderSize>0</m_nBorderSize>
+                                <m_nScrollSize>16</m_nScrollSize>
+                                <m_sHoverSound></m_sHoverSound>
+                                <m_sSelectSound></m_sSelectSound>
+                            </Class>
+                        </m_pWindowStyle>
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlButton">
+                        <m_sName>btnQuestHelper</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                        <m_Window>260,59,340,119</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle>
+                            <Class Name="class WindowStyle">
+                                <m_pBackMaterial />
+                                <m_pFont />
+                                <m_pLargeFont />
+                                <m_pSmallFont />
+                                <m_Color>FF80FFFF</m_Color>
+                                <m_HighColor>FFFFFFFF</m_HighColor>
+                                <m_SelectColor>FF00FFFF</m_SelectColor>
+                                <m_BorderColor>FFFFFFFF</m_BorderColor>
+                                <m_BackColor>FFFFFFFF</m_BackColor>
+                                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                <m_nBorderSize>2</m_nBorderSize>
+                                <m_nScrollSize>10</m_nScrollSize>
+                                <m_sHoverSound>Sound/GUI/ui_hudmainbutton_hover.wav</m_sHoverSound>
+                                <m_sSelectSound>Sound/GUI/ui_hudmainbutton_click.wav</m_sSelectSound>
+                            </Class>
+                        </m_pWindowStyle>
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_bToggle>0</m_bToggle>
+                        <m_bButtonDown>0</m_bButtonDown>
+                        <m_sLabel></m_sLabel>
+                        <m_labelOffset>4,0,0,0</m_labelOffset>
+                        <m_pButton />
+                        <m_HotKey>0</m_HotKey>
+                        <m_Color>00FFFFFF</m_Color>
+                        <m_bCursorOver>0</m_bCursorOver>
+                        <m_bAbortWhenCursorNotOver>1</m_bAbortWhenCursorNotOver>
+                        <m_bHotKeyDown>0</m_bHotKeyDown>
+                        <m_fTime>0</m_fTime>
+                        <m_bGreyed>0</m_bGreyed>
+                        <m_fMaxScale>1.15</m_fMaxScale>
+                        <m_fScaleSpeed>2</m_fScaleSpeed>
+                        <m_bUseDropShadow>0</m_bUseDropShadow>
+                        <m_pGreyedState />
+                        <m_pNormalState>
+                            <Class Name="class StaticControlButtonState">
+                                <m_nMaterialFrame>0</m_nMaterialFrame>
+                            </Class>
+                        </m_pNormalState>
+                        <m_pHighlightedState>
+                            <Class Name="class StaticControlButtonState">
+                                <m_nMaterialFrame>1</m_nMaterialFrame>
+                            </Class>
+                        </m_pHighlightedState>
+                        <m_pSelectedState />
+                        <m_pDepressedState />
+                    </Class>
+                </m_Children>
+                <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+                <m_Flags>VISIBLE|PARENT_SIZE|PARENT_WIDTH|PARENT_HEIGHT|HCENTER|VCENTER</m_Flags>
+                <m_Window>0,0,600,200</m_Window>
+                <m_fTargetAlpha>1</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                <m_fAlpha>1</m_fAlpha>
+                <m_pWindowStyle />
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1,1</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+            </Class>
+        </m_Children>
+        <m_Style>DO_NOT_CAPTURE_MOUSE|IS_TRANSPARENT|HAS_NO_BORDER</m_Style>
+        <m_Flags>VISIBLE|NOCLIP|HCENTER</m_Flags>
+        <m_Window>318,425,918,625</m_Window>
+        <m_fTargetAlpha>1</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+        <m_fAlpha>1</m_fAlpha>
+        <m_pWindowStyle />
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1,1</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

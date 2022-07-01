@@ -1,0 +1,1241 @@
+<Objects>
+    <Class Name="class Window">
+        <m_sName>MessageBoxModalWindow</m_sName>
+        <m_Children>
+            <Class Name="class Window">
+                <m_sName>messageBoxBG</m_sName>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>Top</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_TOP|PARENT_WIDTH</m_Flags>
+                        <m_Window>0,0,449,32</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_T.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>Bottom</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_BOTTOM|PARENT_WIDTH</m_Flags>
+                        <m_Window>0,168,449,200</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_B.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>Left</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_LEFT|PARENT_HEIGHT</m_Flags>
+                        <m_Window>0,0,32,200</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_L.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>Right</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_RIGHT|PARENT_HEIGHT</m_Flags>
+                        <m_Window>417,0,449,200</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_R.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>TopLeft</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_LEFT|DOCK_TOP</m_Flags>
+                        <m_Window>0,0,32,32</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_TL.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>TopRight</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_TOP|DOCK_RIGHT</m_Flags>
+                        <m_Window>417,0,449,32</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_TR.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>BottomLeft</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_LEFT|DOCK_BOTTOM</m_Flags>
+                        <m_Window>0,168,32,200</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_BL.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class ControlSprite">
+                        <m_sName>TopLeft</m_sName>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|DOCK_RIGHT|DOCK_BOTTOM</m_Flags>
+                        <m_Window>417,168,449,200</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_pMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName></m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_NONE</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Art/Art_Message_Box_BR.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1,1</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pMaterial>
+                        <m_fRotation>0</m_fRotation>
+                        <m_Color>FFFFFFFF</m_Color>
+                        <m_textColor>FFFFFFFF</m_textColor>
+                        <m_textComponent>
+                            <Class Name="class TextComponent">
+                                <m_useDropShadow>1</m_useDropShadow>
+                            </Class>
+                        </m_textComponent>
+                    </Class>
+                </m_Children>
+                <m_Children>
+                    <Class Name="class WindowLayout">
+                        <m_sName>messageBoxLayout</m_sName>
+                        <m_Children>
+                            <Class Name="class Window">
+                                <m_sName></m_sName>
+                                <m_Children>
+                                    <Class Name="class ControlText">
+                                        <m_sName>TitleText</m_sName>
+                                        <m_Style>HAS_NO_BORDER|FIT_TEXT</m_Style>
+                                        <m_Flags>VISIBLE</m_Flags>
+                                        <m_Window>0,1,415,31</m_Window>
+                                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                        <m_fAlpha>1</m_fAlpha>
+                                        <m_pWindowStyle>
+                                            <Class Name="class WindowStyle">
+                                                <m_pBackMaterial />
+                                                <m_pFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>WizardFancy.xml</m_sFilename>
+                                                        <m_fScale>0.7</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pFont>
+                                                <m_pLargeFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                        <m_fScale>0.625</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pLargeFont>
+                                                <m_pSmallFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                        <m_fScale>0.4166</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pSmallFont>
+                                                <m_Color>FF000000</m_Color>
+                                                <m_HighColor>FFFFFFFF</m_HighColor>
+                                                <m_SelectColor>FF00FFFF</m_SelectColor>
+                                                <m_BorderColor>FF323232</m_BorderColor>
+                                                <m_BackColor>FFFFFFFF</m_BackColor>
+                                                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                                <m_nBorderSize>2</m_nBorderSize>
+                                                <m_nScrollSize>10</m_nScrollSize>
+                                                <m_sHoverSound></m_sHoverSound>
+                                                <m_sSelectSound></m_sSelectSound>
+                                            </Class>
+                                        </m_pWindowStyle>
+                                        <m_sHelp></m_sHelp>
+                                        <m_sScript></m_sScript>
+                                        <m_Offset>0,0</m_Offset>
+                                        <m_Scale>1,1</m_Scale>
+                                        <m_sTip></m_sTip>
+                                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                        <m_sText>&lt;string;GUI_00000687&gt;</m_sText>
+                                        <m_bUseDropShadow>0</m_bUseDropShadow>
+                                        <m_bEnableWordWrap>1</m_bEnableWordWrap>
+                                        <m_bEnableToggle>1</m_bEnableToggle>
+                                        <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                                        <m_sTooltip></m_sTooltip>
+                                    </Class>
+                                </m_Children>
+                                <m_Style>HAS_NO_BORDER</m_Style>
+                                <m_Flags>VISIBLE</m_Flags>
+                                <m_Window>0,0,412,35</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle />
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                            </Class>
+                        </m_Children>
+                        <m_Children>
+                            <Class Name="class Window">
+                                <m_sName>TextArea</m_sName>
+                                <m_Children>
+                                    <Class Name="class ControlText">
+                                        <m_sName>CaptionText</m_sName>
+                                        <m_Style>HAS_NO_BORDER</m_Style>
+                                        <m_Flags>VISIBLE|VCENTER</m_Flags>
+                                        <m_Window>2,20,406,46</m_Window>
+                                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                        <m_fAlpha>1</m_fAlpha>
+                                        <m_pWindowStyle>
+                                            <Class Name="class WindowStyle">
+                                                <m_pBackMaterial />
+                                                <m_pFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                        <m_fScale>0.55</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pFont>
+                                                <m_pLargeFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                        <m_fScale>0.625</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pLargeFont>
+                                                <m_pSmallFont>
+                                                    <Class Name="class FontGlyphis">
+                                                        <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                        <m_fScale>0.4166</m_fScale>
+                                                        <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                    </Class>
+                                                </m_pSmallFont>
+                                                <m_Color>FF000000</m_Color>
+                                                <m_HighColor>FFFFFFFF</m_HighColor>
+                                                <m_SelectColor>FF00FFFF</m_SelectColor>
+                                                <m_BorderColor>FF323232</m_BorderColor>
+                                                <m_BackColor>FFFFFFFF</m_BackColor>
+                                                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                                <m_nBorderSize>2</m_nBorderSize>
+                                                <m_nScrollSize>10</m_nScrollSize>
+                                                <m_sHoverSound></m_sHoverSound>
+                                                <m_sSelectSound></m_sSelectSound>
+                                            </Class>
+                                        </m_pWindowStyle>
+                                        <m_sHelp></m_sHelp>
+                                        <m_sScript></m_sScript>
+                                        <m_Offset>0,0</m_Offset>
+                                        <m_Scale>1,1</m_Scale>
+                                        <m_sTip></m_sTip>
+                                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                        <m_sText>&lt;string;GUI_00000688&gt;</m_sText>
+                                        <m_bUseDropShadow>0</m_bUseDropShadow>
+                                        <m_bEnableWordWrap>1</m_bEnableWordWrap>
+                                        <m_bEnableToggle>1</m_bEnableToggle>
+                                        <m_nLeadingAdjust>0</m_nLeadingAdjust>
+                                        <m_sTooltip></m_sTooltip>
+                                    </Class>
+                                </m_Children>
+                                <m_Style>HAS_NO_BORDER</m_Style>
+                                <m_Flags>VISIBLE|HCENTER</m_Flags>
+                                <m_Window>5,38,413,104</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle />
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                            </Class>
+                        </m_Children>
+                        <m_Children>
+                            <Class Name="class ControlCheckBox">
+                                <m_sName>ignoreCheckBox</m_sName>
+                                <m_Style>HAS_NO_BORDER</m_Style>
+                                <m_Flags>HCENTER</m_Flags>
+                                <m_Window>75,102,342,134</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle />
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                <m_bToggle>0</m_bToggle>
+                                <m_bButtonDown>0</m_bButtonDown>
+                                <m_sLabel>&lt;string;GUI_00000689&gt;</m_sLabel>
+                                <m_labelOffset>4,0,0,0</m_labelOffset>
+                                <m_pButton>
+                                    <Class Name="class TileMaterial">
+                                        <m_sMaterialName></m_sMaterialName>
+                                        <m_Blending>B_ALPHA</m_Blending>
+                                        <m_eRepeat>R_NONE</m_eRepeat>
+                                        <m_pDiffuseMap>
+                                            <Class Name="class TextureD3D">
+                                                <m_sFilename>GUI/Buttons/Button_Checkbox01.dds</m_sFilename>
+                                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                                <m_bDoubleSided>0</m_bDoubleSided>
+                                                <m_bMipMap>0</m_bMipMap>
+                                            </Class>
+                                        </m_pDiffuseMap>
+                                        <m_pAlphaMask />
+                                        <m_fLastAlpha>1</m_fLastAlpha>
+                                        <m_Diffuse>FFFFFFFF</m_Diffuse>
+                                        <m_Ambient>00FFFFFF</m_Ambient>
+                                        <m_Specular>00FFFFFF</m_Specular>
+                                        <m_fSpecularPower>0</m_fSpecularPower>
+                                        <m_Frames>0,0,0.25,0.5</m_Frames>
+                                        <m_Frames>0.25,0,0.5,0.5</m_Frames>
+                                        <m_Frames>0.5,0,0.75,0.5</m_Frames>
+                                        <m_Frames>0.75,0,1,0.5</m_Frames>
+                                        <m_Frames>0,0.5,0.25,1</m_Frames>
+                                        <m_Frames>0.25,0.5,0.5,1</m_Frames>
+                                        <m_Frames>0.5,0.5,0.75,1</m_Frames>
+                                        <m_Frames>0.75,0.5,1,1</m_Frames>
+                                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                                        <m_fAnimRate>15</m_fAnimRate>
+                                        <m_nAnimBegin>0</m_nAnimBegin>
+                                        <m_nAnimEnd>7</m_nAnimEnd>
+                                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                                        <m_TilesX>4</m_TilesX>
+                                        <m_TilesY>2</m_TilesY>
+                                    </Class>
+                                </m_pButton>
+                                <m_HotKey>0</m_HotKey>
+                                <m_Color>FFFFFFFF</m_Color>
+                                <m_bCursorOver>0</m_bCursorOver>
+                                <m_bAbortWhenCursorNotOver>1</m_bAbortWhenCursorNotOver>
+                                <m_bHotKeyDown>0</m_bHotKeyDown>
+                                <m_fTime>0</m_fTime>
+                                <m_bGreyed>0</m_bGreyed>
+                                <m_fMaxScale>1.25</m_fMaxScale>
+                                <m_fScaleSpeed>2</m_fScaleSpeed>
+                                <m_bUseDropShadow>0</m_bUseDropShadow>
+                                <m_pGreyedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>3</m_nMaterialFrame>
+                                    </Class>
+                                </m_pGreyedState>
+                                <m_pNormalState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                                    </Class>
+                                </m_pNormalState>
+                                <m_pHighlightedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                                    </Class>
+                                </m_pHighlightedState>
+                                <m_pSelectedState />
+                                <m_pDepressedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>2</m_nMaterialFrame>
+                                    </Class>
+                                </m_pDepressedState>
+                                <m_nGroupID>0</m_nGroupID>
+                                <m_bChecked>0</m_bChecked>
+                                <m_pCheckedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>4</m_nMaterialFrame>
+                                    </Class>
+                                </m_pCheckedState>
+                                <m_pCheckedGreyedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>7</m_nMaterialFrame>
+                                    </Class>
+                                </m_pCheckedGreyedState>
+                                <m_pCheckedHighlightedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>5</m_nMaterialFrame>
+                                    </Class>
+                                </m_pCheckedHighlightedState>
+                                <m_pCheckedDepressedState>
+                                    <Class Name="class StaticControlButtonState">
+                                        <m_nMaterialFrame>6</m_nMaterialFrame>
+                                    </Class>
+                                </m_pCheckedDepressedState>
+                            </Class>
+                        </m_Children>
+                        <m_Children>
+                            <Class Name="class Window">
+                                <m_sName>AdjustmentWindow</m_sName>
+                                <m_Children>
+                                    <Class Name="class WindowLayout">
+                                        <m_sName>Layout</m_sName>
+                                        <m_Children>
+                                            <Class Name="class ControlButton">
+                                                <m_sName>centerButton</m_sName>
+                                                <m_Style>HAS_NO_BORDER</m_Style>
+                                                <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                                                <m_Window>3,0,131,32</m_Window>
+                                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                                <m_fAlpha>1</m_fAlpha>
+                                                <m_pWindowStyle>
+                                                    <Class Name="class WindowStyle">
+                                                        <m_pBackMaterial />
+                                                        <m_pFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardFancy.xml</m_sFilename>
+                                                                <m_fScale>0.428571</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pFont>
+                                                        <m_pLargeFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.625</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pLargeFont>
+                                                        <m_pSmallFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.4166</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pSmallFont>
+                                                        <m_Color>FF00FFFF</m_Color>
+                                                        <m_HighColor>FFFFFFFF</m_HighColor>
+                                                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                                                        <m_BorderColor>FF323232</m_BorderColor>
+                                                        <m_BackColor>FFFFFFFF</m_BackColor>
+                                                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                                        <m_nBorderSize>0</m_nBorderSize>
+                                                        <m_nScrollSize>10</m_nScrollSize>
+                                                        <m_sHoverSound>Sound/GUI/ButtonMouseOver.wav</m_sHoverSound>
+                                                        <m_sSelectSound>Sound/GUI/OKButtonClick.wav</m_sSelectSound>
+                                                    </Class>
+                                                </m_pWindowStyle>
+                                                <m_sHelp></m_sHelp>
+                                                <m_sScript></m_sScript>
+                                                <m_Offset>0,0</m_Offset>
+                                                <m_Scale>1,1</m_Scale>
+                                                <m_sTip></m_sTip>
+                                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                                <m_bToggle>0</m_bToggle>
+                                                <m_bButtonDown>0</m_bButtonDown>
+                                                <m_sLabel></m_sLabel>
+                                                <m_labelOffset>4,0,0,0</m_labelOffset>
+                                                <m_pButton>
+                                                    <Class Name="class TileMaterial">
+                                                        <m_sMaterialName></m_sMaterialName>
+                                                        <m_Blending>B_ALPHA</m_Blending>
+                                                        <m_eRepeat>R_NONE</m_eRepeat>
+                                                        <m_pDiffuseMap>
+                                                            <Class Name="class TextureD3D">
+                                                                <m_sFilename>GUI/Buttons/Button_Red01.dds</m_sFilename>
+                                                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                                                <m_bDoubleSided>0</m_bDoubleSided>
+                                                                <m_bMipMap>0</m_bMipMap>
+                                                            </Class>
+                                                        </m_pDiffuseMap>
+                                                        <m_pAlphaMask />
+                                                        <m_fLastAlpha>1</m_fLastAlpha>
+                                                        <m_Diffuse>FF808080</m_Diffuse>
+                                                        <m_Ambient>00808080</m_Ambient>
+                                                        <m_Specular>00FFFFFF</m_Specular>
+                                                        <m_fSpecularPower>0</m_fSpecularPower>
+                                                        <m_Frames>0,0,1,0.25</m_Frames>
+                                                        <m_Frames>0,0.25,1,0.5</m_Frames>
+                                                        <m_Frames>0,0.5,1,0.75</m_Frames>
+                                                        <m_Frames>0,0.75,1,1</m_Frames>
+                                                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                                                        <m_fAnimRate>1</m_fAnimRate>
+                                                        <m_nAnimBegin>0</m_nAnimBegin>
+                                                        <m_nAnimEnd>3</m_nAnimEnd>
+                                                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                                                        <m_TilesX>1</m_TilesX>
+                                                        <m_TilesY>4</m_TilesY>
+                                                    </Class>
+                                                </m_pButton>
+                                                <m_HotKey>0</m_HotKey>
+                                                <m_Color>FFFFFFFF</m_Color>
+                                                <m_bCursorOver>0</m_bCursorOver>
+                                                <m_bAbortWhenCursorNotOver>1</m_bAbortWhenCursorNotOver>
+                                                <m_bHotKeyDown>0</m_bHotKeyDown>
+                                                <m_fTime>0</m_fTime>
+                                                <m_bGreyed>0</m_bGreyed>
+                                                <m_fMaxScale>1.25</m_fMaxScale>
+                                                <m_fScaleSpeed>2</m_fScaleSpeed>
+                                                <m_bUseDropShadow>0</m_bUseDropShadow>
+                                                <m_pGreyedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>3</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pGreyedState>
+                                                <m_pNormalState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pNormalState>
+                                                <m_pHighlightedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pHighlightedState>
+                                                <m_pSelectedState />
+                                                <m_pDepressedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>2</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pDepressedState>
+                                            </Class>
+                                        </m_Children>
+                                        <m_Children>
+                                            <Class Name="class ControlButton">
+                                                <m_sName>leftButton</m_sName>
+                                                <m_Style>HAS_NO_BORDER</m_Style>
+                                                <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                                                <m_Window>136,0,264,32</m_Window>
+                                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                                <m_fAlpha>1</m_fAlpha>
+                                                <m_pWindowStyle>
+                                                    <Class Name="class WindowStyle">
+                                                        <m_pBackMaterial />
+                                                        <m_pFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardFancy.xml</m_sFilename>
+                                                                <m_fScale>0.428571</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pFont>
+                                                        <m_pLargeFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.625</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pLargeFont>
+                                                        <m_pSmallFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.4166</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pSmallFont>
+                                                        <m_Color>FF00FFFF</m_Color>
+                                                        <m_HighColor>FFFFFFFF</m_HighColor>
+                                                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                                                        <m_BorderColor>FF323232</m_BorderColor>
+                                                        <m_BackColor>FFFFFFFF</m_BackColor>
+                                                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                                        <m_nBorderSize>0</m_nBorderSize>
+                                                        <m_nScrollSize>10</m_nScrollSize>
+                                                        <m_sHoverSound>Sound/GUI/ButtonMouseOver.wav</m_sHoverSound>
+                                                        <m_sSelectSound>Sound/GUI/OKButtonClick.wav</m_sSelectSound>
+                                                    </Class>
+                                                </m_pWindowStyle>
+                                                <m_sHelp></m_sHelp>
+                                                <m_sScript></m_sScript>
+                                                <m_Offset>0,0</m_Offset>
+                                                <m_Scale>1,1</m_Scale>
+                                                <m_sTip></m_sTip>
+                                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                                <m_bToggle>0</m_bToggle>
+                                                <m_bButtonDown>0</m_bButtonDown>
+                                                <m_sLabel></m_sLabel>
+                                                <m_labelOffset>4,0,0,0</m_labelOffset>
+                                                <m_pButton>
+                                                    <Class Name="class TileMaterial">
+                                                        <m_sMaterialName></m_sMaterialName>
+                                                        <m_Blending>B_ALPHA</m_Blending>
+                                                        <m_eRepeat>R_NONE</m_eRepeat>
+                                                        <m_pDiffuseMap>
+                                                            <Class Name="class TextureD3D">
+                                                                <m_sFilename>GUI/Buttons/Button_Red01.dds</m_sFilename>
+                                                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                                                <m_bDoubleSided>0</m_bDoubleSided>
+                                                                <m_bMipMap>0</m_bMipMap>
+                                                            </Class>
+                                                        </m_pDiffuseMap>
+                                                        <m_pAlphaMask />
+                                                        <m_fLastAlpha>1</m_fLastAlpha>
+                                                        <m_Diffuse>FF808080</m_Diffuse>
+                                                        <m_Ambient>00808080</m_Ambient>
+                                                        <m_Specular>00FFFFFF</m_Specular>
+                                                        <m_fSpecularPower>0</m_fSpecularPower>
+                                                        <m_Frames>0,0,1,0.25</m_Frames>
+                                                        <m_Frames>0,0.25,1,0.5</m_Frames>
+                                                        <m_Frames>0,0.5,1,0.75</m_Frames>
+                                                        <m_Frames>0,0.75,1,1</m_Frames>
+                                                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                                                        <m_fAnimRate>1</m_fAnimRate>
+                                                        <m_nAnimBegin>0</m_nAnimBegin>
+                                                        <m_nAnimEnd>3</m_nAnimEnd>
+                                                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                                                        <m_TilesX>1</m_TilesX>
+                                                        <m_TilesY>4</m_TilesY>
+                                                    </Class>
+                                                </m_pButton>
+                                                <m_HotKey>89</m_HotKey>
+                                                <m_Color>FFFFFFFF</m_Color>
+                                                <m_bCursorOver>0</m_bCursorOver>
+                                                <m_bAbortWhenCursorNotOver>1</m_bAbortWhenCursorNotOver>
+                                                <m_bHotKeyDown>0</m_bHotKeyDown>
+                                                <m_fTime>0</m_fTime>
+                                                <m_bGreyed>0</m_bGreyed>
+                                                <m_fMaxScale>1.25</m_fMaxScale>
+                                                <m_fScaleSpeed>2</m_fScaleSpeed>
+                                                <m_bUseDropShadow>0</m_bUseDropShadow>
+                                                <m_pGreyedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>3</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pGreyedState>
+                                                <m_pNormalState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pNormalState>
+                                                <m_pHighlightedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pHighlightedState>
+                                                <m_pSelectedState />
+                                                <m_pDepressedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>2</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pDepressedState>
+                                            </Class>
+                                        </m_Children>
+                                        <m_Children>
+                                            <Class Name="class ControlButton">
+                                                <m_sName>rightButton</m_sName>
+                                                <m_Style>HAS_NO_BORDER</m_Style>
+                                                <m_Flags>VISIBLE|NOCLIP</m_Flags>
+                                                <m_Window>269,0,397,32</m_Window>
+                                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                                <m_fAlpha>1</m_fAlpha>
+                                                <m_pWindowStyle>
+                                                    <Class Name="class WindowStyle">
+                                                        <m_pBackMaterial />
+                                                        <m_pFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardFancy.xml</m_sFilename>
+                                                                <m_fScale>0.428571</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pFont>
+                                                        <m_pLargeFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.625</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pLargeFont>
+                                                        <m_pSmallFont>
+                                                            <Class Name="class FontGlyphis">
+                                                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                                                <m_fScale>0.4166</m_fScale>
+                                                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                                                            </Class>
+                                                        </m_pSmallFont>
+                                                        <m_Color>FF00FFFF</m_Color>
+                                                        <m_HighColor>FFFFFFFF</m_HighColor>
+                                                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                                                        <m_BorderColor>FF323232</m_BorderColor>
+                                                        <m_BackColor>FFFFFFFF</m_BackColor>
+                                                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                                                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                                                        <m_nBorderSize>0</m_nBorderSize>
+                                                        <m_nScrollSize>10</m_nScrollSize>
+                                                        <m_sHoverSound>Sound/GUI/ButtonMouseOver.wav</m_sHoverSound>
+                                                        <m_sSelectSound>Sound/GUI/OKButtonClick.wav</m_sSelectSound>
+                                                    </Class>
+                                                </m_pWindowStyle>
+                                                <m_sHelp></m_sHelp>
+                                                <m_sScript></m_sScript>
+                                                <m_Offset>0,0</m_Offset>
+                                                <m_Scale>1,1</m_Scale>
+                                                <m_sTip></m_sTip>
+                                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                                <m_bToggle>0</m_bToggle>
+                                                <m_bButtonDown>0</m_bButtonDown>
+                                                <m_sLabel></m_sLabel>
+                                                <m_labelOffset>4,0,0,0</m_labelOffset>
+                                                <m_pButton>
+                                                    <Class Name="class TileMaterial">
+                                                        <m_sMaterialName></m_sMaterialName>
+                                                        <m_Blending>B_ALPHA</m_Blending>
+                                                        <m_eRepeat>R_NONE</m_eRepeat>
+                                                        <m_pDiffuseMap>
+                                                            <Class Name="class TextureD3D">
+                                                                <m_sFilename>GUI/Buttons/Button_Red01.dds</m_sFilename>
+                                                                <m_bAlphaChannel>1</m_bAlphaChannel>
+                                                                <m_bDoubleSided>0</m_bDoubleSided>
+                                                                <m_bMipMap>0</m_bMipMap>
+                                                            </Class>
+                                                        </m_pDiffuseMap>
+                                                        <m_pAlphaMask />
+                                                        <m_fLastAlpha>1</m_fLastAlpha>
+                                                        <m_Diffuse>FF808080</m_Diffuse>
+                                                        <m_Ambient>00808080</m_Ambient>
+                                                        <m_Specular>00FFFFFF</m_Specular>
+                                                        <m_fSpecularPower>0</m_fSpecularPower>
+                                                        <m_Frames>0,0,1,0.25</m_Frames>
+                                                        <m_Frames>0,0.25,1,0.5</m_Frames>
+                                                        <m_Frames>0,0.5,1,0.75</m_Frames>
+                                                        <m_Frames>0,0.75,1,1</m_Frames>
+                                                        <m_nCurrentFrame>0</m_nCurrentFrame>
+                                                        <m_fAnimRate>1</m_fAnimRate>
+                                                        <m_nAnimBegin>0</m_nAnimBegin>
+                                                        <m_nAnimEnd>3</m_nAnimEnd>
+                                                        <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                                        <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                                                        <m_TilesX>1</m_TilesX>
+                                                        <m_TilesY>4</m_TilesY>
+                                                    </Class>
+                                                </m_pButton>
+                                                <m_HotKey>0</m_HotKey>
+                                                <m_Color>FFFFFFFF</m_Color>
+                                                <m_bCursorOver>0</m_bCursorOver>
+                                                <m_bAbortWhenCursorNotOver>1</m_bAbortWhenCursorNotOver>
+                                                <m_bHotKeyDown>0</m_bHotKeyDown>
+                                                <m_fTime>0</m_fTime>
+                                                <m_bGreyed>0</m_bGreyed>
+                                                <m_fMaxScale>1.25</m_fMaxScale>
+                                                <m_fScaleSpeed>2</m_fScaleSpeed>
+                                                <m_bUseDropShadow>0</m_bUseDropShadow>
+                                                <m_pGreyedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>3</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pGreyedState>
+                                                <m_pNormalState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>0</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pNormalState>
+                                                <m_pHighlightedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>1</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pHighlightedState>
+                                                <m_pSelectedState />
+                                                <m_pDepressedState>
+                                                    <Class Name="class StaticControlButtonState">
+                                                        <m_nMaterialFrame>2</m_nMaterialFrame>
+                                                    </Class>
+                                                </m_pDepressedState>
+                                            </Class>
+                                        </m_Children>
+                                        <m_Style>H_RIGHT</m_Style>
+                                        <m_Flags>VISIBLE|DOCK_TOP|DOCK_BOTTOM</m_Flags>
+                                        <m_Window>16,20,417,53</m_Window>
+                                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                        <m_fAlpha>1</m_fAlpha>
+                                        <m_pWindowStyle />
+                                        <m_sHelp></m_sHelp>
+                                        <m_sScript></m_sScript>
+                                        <m_Offset>0,0</m_Offset>
+                                        <m_Scale>1,1</m_Scale>
+                                        <m_sTip></m_sTip>
+                                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                                        <m_nHSpacing>4</m_nHSpacing>
+                                        <m_nVSpacing>2</m_nVSpacing>
+                                    </Class>
+                                </m_Children>
+                                <m_Style>HAS_NO_BORDER</m_Style>
+                                <m_Flags>VISIBLE|NOCLIP|PARENT_WIDTH|HCENTER</m_Flags>
+                                <m_Window>0,107,417,160</m_Window>
+                                <m_fTargetAlpha>1</m_fTargetAlpha>
+                                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                                <m_fAlpha>1</m_fAlpha>
+                                <m_pWindowStyle />
+                                <m_sHelp></m_sHelp>
+                                <m_sScript></m_sScript>
+                                <m_Offset>0,0</m_Offset>
+                                <m_Scale>1,1</m_Scale>
+                                <m_sTip></m_sTip>
+                                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                            </Class>
+                        </m_Children>
+                        <m_Style>HAS_NO_BORDER</m_Style>
+                        <m_Flags>VISIBLE|HCENTER</m_Flags>
+                        <m_Window>16,15,433,220</m_Window>
+                        <m_fTargetAlpha>1</m_fTargetAlpha>
+                        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                        <m_fAlpha>1</m_fAlpha>
+                        <m_pWindowStyle />
+                        <m_sHelp></m_sHelp>
+                        <m_sScript></m_sScript>
+                        <m_Offset>0,0</m_Offset>
+                        <m_Scale>1,1</m_Scale>
+                        <m_sTip></m_sTip>
+                        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+                        <m_nHSpacing>2</m_nHSpacing>
+                        <m_nVSpacing>2</m_nVSpacing>
+                    </Class>
+                </m_Children>
+                <m_Style>HAS_BACK</m_Style>
+                <m_Flags>VISIBLE|NOCLIP|HCENTER|VCENTER</m_Flags>
+                <m_Window>367,209,816,409</m_Window>
+                <m_fTargetAlpha>1</m_fTargetAlpha>
+                <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+                <m_fAlpha>1</m_fAlpha>
+                <m_pWindowStyle>
+                    <Class Name="class WindowStyle">
+                        <m_pBackMaterial>
+                            <Class Name="class Material">
+                                <m_sMaterialName>messageBGImage</m_sMaterialName>
+                                <m_Blending>B_ALPHA</m_Blending>
+                                <m_eRepeat>R_REPEAT</m_eRepeat>
+                                <m_pDiffuseMap>
+                                    <Class Name="class TextureD3D">
+                                        <m_sFilename>GUI/Backgrounds/Background_Message_Box05.dds</m_sFilename>
+                                        <m_bAlphaChannel>1</m_bAlphaChannel>
+                                        <m_bDoubleSided>0</m_bDoubleSided>
+                                        <m_bMipMap>0</m_bMipMap>
+                                    </Class>
+                                </m_pDiffuseMap>
+                                <m_pAlphaMask />
+                                <m_fLastAlpha>1</m_fLastAlpha>
+                                <m_Diffuse>FF808080</m_Diffuse>
+                                <m_Ambient>00808080</m_Ambient>
+                                <m_Specular>00FFFFFF</m_Specular>
+                                <m_fSpecularPower>0</m_fSpecularPower>
+                                <m_Frames>0,0,1.750973,0.7821012</m_Frames>
+                                <m_nCurrentFrame>0</m_nCurrentFrame>
+                                <m_fAnimRate>1</m_fAnimRate>
+                                <m_nAnimBegin>0</m_nAnimBegin>
+                                <m_nAnimEnd>0</m_nAnimEnd>
+                                <m_fMaterialScaleX>1</m_fMaterialScaleX>
+                                <m_fMaterialScaleY>1</m_fMaterialScaleY>
+                            </Class>
+                        </m_pBackMaterial>
+                        <m_pFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.5</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pFont>
+                        <m_pLargeFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>Fonts/WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.625</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pLargeFont>
+                        <m_pSmallFont>
+                            <Class Name="class FontGlyphis">
+                                <m_sFilename>WizardNormal.xml</m_sFilename>
+                                <m_fScale>0.4166</m_fScale>
+                                <m_nKerningAdjust>0</m_nKerningAdjust>
+                            </Class>
+                        </m_pSmallFont>
+                        <m_Color>FF000000</m_Color>
+                        <m_HighColor>FFFFFFFF</m_HighColor>
+                        <m_SelectColor>FF00FFFF</m_SelectColor>
+                        <m_BorderColor>FF323232</m_BorderColor>
+                        <m_BackColor>FFFFFFFF</m_BackColor>
+                        <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                        <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                        <m_nBorderSize>0</m_nBorderSize>
+                        <m_nScrollSize>10</m_nScrollSize>
+                        <m_sHoverSound></m_sHoverSound>
+                        <m_sSelectSound></m_sSelectSound>
+                    </Class>
+                </m_pWindowStyle>
+                <m_sHelp></m_sHelp>
+                <m_sScript></m_sScript>
+                <m_Offset>0,0</m_Offset>
+                <m_Scale>1,1</m_Scale>
+                <m_sTip></m_sTip>
+                <m_ParentOffset>0,0,0,0</m_ParentOffset>
+            </Class>
+        </m_Children>
+        <m_Style>HAS_BACK|HAS_NO_BORDER</m_Style>
+        <m_Flags>VISIBLE|PARENT_SIZE|PARENT_WIDTH|PARENT_HEIGHT|HCENTER|VCENTER</m_Flags>
+        <m_Window>0,0,1184,617</m_Window>
+        <m_fTargetAlpha>0.35</m_fTargetAlpha>
+        <m_fDisabledAlpha>0.4</m_fDisabledAlpha>
+        <m_fAlpha>0.35</m_fAlpha>
+        <m_pWindowStyle>
+            <Class Name="class WindowStyle">
+                <m_pBackMaterial />
+                <m_pFont />
+                <m_pLargeFont />
+                <m_pSmallFont />
+                <m_Color>FF000000</m_Color>
+                <m_HighColor>FFFFFFFF</m_HighColor>
+                <m_SelectColor>FF00FFFF</m_SelectColor>
+                <m_BorderColor>FFFFFFFF</m_BorderColor>
+                <m_BackColor>FF000000</m_BackColor>
+                <m_ScrollBarColor>FF008000</m_ScrollBarColor>
+                <m_ScrollTabColor>FF00FF00</m_ScrollTabColor>
+                <m_nBorderSize>0</m_nBorderSize>
+                <m_nScrollSize>16</m_nScrollSize>
+                <m_sHoverSound></m_sHoverSound>
+                <m_sSelectSound></m_sSelectSound>
+            </Class>
+        </m_pWindowStyle>
+        <m_sHelp></m_sHelp>
+        <m_sScript></m_sScript>
+        <m_Offset>0,0</m_Offset>
+        <m_Scale>1,1</m_Scale>
+        <m_sTip></m_sTip>
+        <m_ParentOffset>0,0,0,0</m_ParentOffset>
+    </Class>
+</Objects>

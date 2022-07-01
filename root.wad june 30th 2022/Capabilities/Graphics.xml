@@ -1,0 +1,153 @@
+<!--   <Manufacturer Name="Manufacturer Name"> -->
+<!--      <Exception Name="capability"> -->
+<!--         list all the chip sets that this ability affects, if no chipssets are listed then -->
+<!--         all chipset from the manufacturer are affected.-->
+<!--         <ChipSet></ChipSet> -->
+<!--         <Capable>false</Capable>  If this is here it will override the ability-->
+<!--         <Value>0.0</Value>  If this is here it will override the value-->
+<!--      </Exception> -->
+
+<Graphics>
+  <Manufacturer Name="Intel Corporation">
+    <Exception Name="HardwareCursor">
+      <ChipSet>Intel(R) 82845G/GL Chip</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+    <Exception Name="RenderTarget">
+      <ChipSet>Intel(R) 82852/82855 GM/GME Controller</ChipSet>
+      <ChipSet>Intel(R) 82852/55 Graphics Controller</ChipSet>
+      <ChipSet>Intel(R) 915GM/GMS,910GML Express Chipset</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="DefaultParticleScale">
+      <ChipSet>Intel(R) GMA 500 Graphics Controller</ChipSet>
+      <Value>0.025</Value>
+    </Exception>
+  </Manufacturer>
+
+  <Manufacturer Name="VIA/S3 Graphics, Inc.">
+    <Exception Name="RenderTarget">
+      <ChipSet>S3G KM400/KN400</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="DefaultParticleScale">
+      <ChipSet>S3G KM400/KN400</ChipSet>
+      <Value>0.025</Value>
+    </Exception>
+  </Manufacturer>
+
+  <Manufacturer Name="VIA/S3G">
+    <Exception Name="RenderTarget">
+      <ChipSet>VIA/S3G UniChrome IGP</ChipSet>
+      <ChipSet>VIA/S3G UniChrome Pro IGP</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="DefaultParticleScale">
+      <ChipSet>VIA/S3G UniChrome IGP</ChipSet>
+      <ChipSet>VIA/S3G UniChrome Pro IGP</ChipSet>
+      <Value>0.025</Value>
+    </Exception>
+  </Manufacturer>
+
+  <Manufacturer Name="S3 Graphics, Inc.">
+    <Exception Name="SquareOnlyTextures">
+      <ChipSet>S3 ProSavage DDR</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+  </Manufacturer>
+
+  <Manufacturer Name="S3 Graphics, Inc">
+    <Exception Name="SquareOnlyTextures">
+      <ChipSet>S3 ProSavage DDR</ChipSet>
+      <ChipSet>S3 ProSavage KM133(TM)</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+  </Manufacturer>
+
+  <Manufacturer Name="S3 Graphics Co., Ltd.">
+    <Exception Name="SquareOnlyTextures">
+      <ChipSet>S3 ProSavage DDR</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+  </Manufacturer>
+
+  <!-- TEST ONLY -->
+  <!-- these are the settings matching our in-house S3 videocard to test our minspec functionality -->
+  <!--
+  <Manufacturer Name="Advanced Micro Devices, Inc.">
+    <Exception Name="VertexShaders">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+      <Value>0.0</Value>
+    </Exception>
+    <Exception Name="PixelShaders">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+      <Value>0.0</Value>
+    </Exception>
+    <Exception Name="VideoMemory">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Value>64</Value>
+    </Exception>
+    <Exception Name="DXT">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+      <Value>0.0</Value>
+    </Exception>
+    <Exception Name="RenderTarget">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="Power2Textures">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+    <Exception Name="A8Textures">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="HardwareSkinning">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="ConditionalPower2Textures">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="DXT5">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="SSE2">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+    <Exception Name="DesktopHeight">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Value>864</Value>
+    </Exception>
+    <Exception Name="MaxLights">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Value>4.0</Value>
+    </Exception>
+    <Exception Name="DesktopWidth">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Value>1152</Value>
+    </Exception>
+  </Manufacturer>
+  -->
+
+  <!-- TEST ONLY Manufacturer Name="Advanced Micro Devices, Inc.">
+    <Exception Name="SquareOnlyTextures">
+      <ChipSet>AMD Radeon Graphics Processor (0x6758)</ChipSet>
+      <Capable>true</Capable>
+    </Exception>
+  </Manufacturer-->
+
+  <!-- TEST ONLY Manufacturer Name="ATI Technologies Inc.">
+    <Exception Name="RenderTarget">
+      <ChipSet>ATI Radeon Graphics Processor (0x94C1)</ChipSet>
+      <Capable>false</Capable>
+    </Exception>
+  </Manufacturer-->
+</Graphics>

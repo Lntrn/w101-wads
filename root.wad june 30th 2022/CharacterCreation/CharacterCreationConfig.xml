@@ -1,0 +1,53 @@
+<Objects>
+  <Class Name="class WizCharacterCreationConfig">
+
+    <m_creationOptions key="0">
+      <Class Name="class AllowedCreationOption">
+        <m_templateID>1</m_templateID>
+      </Class>
+    </m_creationOptions>
+
+     <m_schoolOptions key="0">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Fire</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+     <m_schoolOptions key="1">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Ice</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+     <m_schoolOptions key="2">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Storm</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+     <m_schoolOptions key="3">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Life</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+     
+    <m_schoolOptions key="4">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Myth</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+     <m_schoolOptions key="5">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Death</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+     <m_schoolOptions key="6">
+        <Class Name="class AllowedSchoolOption">
+           <m_schoolName>Balance</m_schoolName>
+        </Class>
+     </m_schoolOptions>
+
+  </Class>
+</Objects>

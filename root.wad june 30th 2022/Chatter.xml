@@ -1,0 +1,242 @@
+﻿<Objects>
+  <Class Name="class ChatterManager">
+    <m_loadItems key="0">
+      <Class Name="class Chatter">
+        <m_id.m_full>84099</m_id.m_full>
+        <m_chatterList>Chatter_00000000</m_chatterList>
+        <m_name>Chat1</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="1">
+      <Class Name="class Chatter">
+        <m_id.m_full>84100</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000001</m_chatterList>
+        <m_chatterList key="1">Chatter_00000002</m_chatterList>
+        <m_chatterList key="2">Chatter_00000003</m_chatterList>
+        <m_chatterList key="3">Chatter_00000004</m_chatterList>
+        <m_name>Chat2</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="2">
+      <Class Name="class Chatter">
+        <m_id.m_full>84101</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000005</m_chatterList>
+        <m_chatterList key="1">Chatter_00000006</m_chatterList>
+        <m_chatterList key="2">Chatter_00000007</m_chatterList>
+        <m_chatterList key="3">Chatter_00000008</m_chatterList>
+        <m_name>Chat3</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="3">
+      <Class Name="class Chatter">
+        <m_id.m_full>84102</m_id.m_full>
+        <m_chatterList>Chatter_00000009</m_chatterList>
+        <m_name>Chat4</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="4">
+      <Class Name="class Chatter">
+        <m_id.m_full>84103</m_id.m_full>
+        <m_chatterList>Chatter_00000010</m_chatterList>
+        <m_name>Chat5</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="5">
+      <Class Name="class Chatter">
+        <m_id.m_full>84104</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000011</m_chatterList>
+        <m_chatterList key="1">Chatter_00000012</m_chatterList>
+        <m_chatterList key="2">Chatter_00000013</m_chatterList>
+        <m_chatterList key="3">Chatter_00000014</m_chatterList>
+        <m_name>Chat6</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="6">
+      <Class Name="class Chatter">
+        <m_id.m_full>84105</m_id.m_full>
+        <m_chatterList>Chatter_00000015</m_chatterList>
+        <m_name>TestChat</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="7">
+      <Class Name="class Chatter">
+        <m_id.m_full>4586</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000016</m_chatterList>
+        <m_chatterList key="1">Chatter_00000017</m_chatterList>
+        <m_chatterList key="2">Chatter_00000018</m_chatterList>
+        <m_chatterList key="3">Chatter_00000019</m_chatterList>
+        <m_chatterList key="4">Chatter_00000020</m_chatterList>
+        <m_name>WC_Student_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="8">
+      <Class Name="class Chatter">
+        <m_id.m_full>4881</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000021</m_chatterList>
+        <m_chatterList key="1">Chatter_00000022</m_chatterList>
+        <m_chatterList key="2">Chatter_00000023</m_chatterList>
+        <m_chatterList key="3">Chatter_00000024</m_chatterList>
+        <m_chatterList key="4">Chatter_00000025</m_chatterList>
+        <m_name>WC_Guard_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="9">
+      <Class Name="class Chatter">
+        <m_id.m_full>4882</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000026</m_chatterList>
+        <m_chatterList key="1">Chatter_00000027</m_chatterList>
+        <m_chatterList key="2">Chatter_00000028</m_chatterList>
+        <m_chatterList key="3">Chatter_00000029</m_chatterList>
+        <m_chatterList key="4">Chatter_00000030</m_chatterList>
+        <m_name>WC_ShopKeeper_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="10">
+      <Class Name="class Chatter">
+        <m_id.m_full>4883</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000031</m_chatterList>
+        <m_chatterList key="1">Chatter_00000032</m_chatterList>
+        <m_chatterList key="2">Chatter_00000033</m_chatterList>
+        <m_name>WC_Librarian_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="11">
+      <Class Name="class Chatter">
+        <m_id.m_full>4884</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000034</m_chatterList>
+        <m_chatterList key="1">Chatter_00000035</m_chatterList>
+        <m_chatterList key="2">Chatter_00000036</m_chatterList>
+        <m_chatterList key="3">Chatter_00000037</m_chatterList>
+        <m_name>WC_Generic_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="12">
+      <Class Name="class Chatter">
+        <m_id.m_full>4885</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000038</m_chatterList>
+        <m_chatterList key="1">Chatter_00000039</m_chatterList>
+        <m_chatterList key="2">Chatter_00000040</m_chatterList>
+        <m_chatterList key="3">Chatter_00000041</m_chatterList>
+        <m_chatterList key="4">Chatter_00000042</m_chatterList>
+        <m_name>KT_Archeologist_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="13">
+      <Class Name="class Chatter">
+        <m_id.m_full>4886</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000043</m_chatterList>
+        <m_chatterList key="1">Chatter_00000044</m_chatterList>
+        <m_chatterList key="2">Chatter_00000045</m_chatterList>
+        <m_chatterList key="3">Chatter_00000046</m_chatterList>
+        <m_name>KT_GenericSalamander_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="14">
+      <Class Name="class Chatter">
+        <m_id.m_full>4887</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000047</m_chatterList>
+        <m_chatterList key="1">Chatter_00000048</m_chatterList>
+        <m_chatterList key="2">Chatter_00000049</m_chatterList>
+        <m_chatterList key="3">Chatter_00000050</m_chatterList>
+        <m_chatterList key="4">Chatter_00000051</m_chatterList>
+        <m_name>KT_ShopKeeper_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="15">
+      <Class Name="class Chatter">
+        <m_id.m_full>4888</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000052</m_chatterList>
+        <m_chatterList key="1">Chatter_00000053</m_chatterList>
+        <m_chatterList key="2">Chatter_00000054</m_chatterList>
+        <m_chatterList key="3">Chatter_00000055</m_chatterList>
+        <m_name>KT_GenericKroks_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="16">
+      <Class Name="class Chatter">
+        <m_id.m_full>4889</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000056</m_chatterList>
+        <m_chatterList key="1">Chatter_00000057</m_chatterList>
+        <m_chatterList key="2">Chatter_00000058</m_chatterList>
+        <m_chatterList key="3">Chatter_00000059</m_chatterList>
+        <m_chatterList key="4">Chatter_00000060</m_chatterList>
+        <m_name>MB_NobleMale_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="17">
+      <Class Name="class Chatter">
+        <m_id.m_full>4890</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000061</m_chatterList>
+        <m_chatterList key="1">Chatter_00000062</m_chatterList>
+        <m_chatterList key="2">Chatter_00000063</m_chatterList>
+        <m_chatterList key="3">Chatter_00000064</m_chatterList>
+        <m_chatterList key="4">Chatter_00000065</m_chatterList>
+        <m_name>MB_NobleFemale_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="18">
+      <Class Name="class Chatter">
+        <m_id.m_full>4891</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000066</m_chatterList>
+        <m_chatterList key="1">Chatter_00000067</m_chatterList>
+        <m_chatterList key="2">Chatter_00000068</m_chatterList>
+        <m_chatterList key="3">Chatter_00000069</m_chatterList>
+        <m_chatterList key="4">Chatter_00000070</m_chatterList>
+        <m_name>MB_Frog_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="19">
+      <Class Name="class Chatter">
+        <m_id.m_full>4892</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000071</m_chatterList>
+        <m_chatterList key="1">Chatter_00000072</m_chatterList>
+        <m_chatterList key="2">Chatter_00000073</m_chatterList>
+        <m_chatterList key="3">Chatter_00000074</m_chatterList>
+        <m_chatterList key="4">Chatter_00000075</m_chatterList>
+        <m_name>MB_Bobby_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="20">
+      <Class Name="class Chatter">
+        <m_id.m_full>4893</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000076</m_chatterList>
+        <m_chatterList key="1">Chatter_00000077</m_chatterList>
+        <m_chatterList key="2">Chatter_00000078</m_chatterList>
+        <m_chatterList key="3">Chatter_00000079</m_chatterList>
+        <m_chatterList key="4">Chatter_00000080</m_chatterList>
+        <m_name>MS_Samoorai_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="21">
+      <Class Name="class Chatter">
+        <m_id.m_full>4894</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000081</m_chatterList>
+        <m_chatterList key="1">Chatter_00000082</m_chatterList>
+        <m_chatterList key="2">Chatter_00000083</m_chatterList>
+        <m_chatterList key="3">Chatter_00000084</m_chatterList>
+        <m_chatterList key="4">Chatter_00000085</m_chatterList>
+        <m_name>MS_Monk_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="22">
+      <Class Name="class Chatter">
+        <m_id.m_full>4895</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000086</m_chatterList>
+        <m_chatterList key="1">Chatter_00000087</m_chatterList>
+        <m_chatterList key="2">Chatter_00000088</m_chatterList>
+        <m_chatterList key="3">Chatter_00000089</m_chatterList>
+        <m_name>MS_SheepFarmer_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+    <m_loadItems key="23">
+      <Class Name="class Chatter">
+        <m_id.m_full>4896</m_id.m_full>
+        <m_chatterList key="0">Chatter_00000090</m_chatterList>
+        <m_chatterList key="1">Chatter_00000091</m_chatterList>
+        <m_chatterList key="2">Chatter_00000092</m_chatterList>
+        <m_chatterList key="3">Chatter_00000093</m_chatterList>
+        <m_name>MS_ShopKeeper_Chatter</m_name>
+      </Class>
+    </m_loadItems>
+  </Class>
+</Objects>
